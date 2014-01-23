@@ -493,7 +493,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
 
      <!-- NRCM 2020-2030 simulation aggregation -->
      <dataset name="NRCM 2020-2030 Simulation">
-       <dataset name="ds601.0 NRCM 2020-2030 Simulation"
+       <dataset name="NRCM 2020-2030 Aggregation"
          ID="ds601.0_NRCM_2020_2030-AGG"
          urlPath="aggregations/ds601.0/20/best"
          harvest="true">
@@ -915,7 +915,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
 
      <!-- NRCM 2045-2055 simulation aggregation -->
      <dataset name="NRCM 2045-2055 Simulation">
-       <dataset name="ds601.0 NRCM 2045-2055 Simulation"
+       <dataset name="NRCM 2045-2055 Aggregation"
          ID="ds601.0_NRCM_2045_2055-AGG"
          urlPath="aggregations/ds601.0/30/best"
          harvest="true">
