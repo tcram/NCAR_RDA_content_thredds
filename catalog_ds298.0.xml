@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalog name="ds316.0 Catalog"
+<catalog name="ds298.0 Catalog"
         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
         xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -18,7 +18,7 @@
     <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
   </service>
 
- <dataset name="ds316.0">
+ <dataset name="ds298.0">
          <metadata inherited="true">
           <dataFormat>NetCDF</dataFormat>
           <dataType>GRID</dataType>
