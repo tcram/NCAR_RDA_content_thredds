@@ -3,16 +3,27 @@
         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
         xmlns:xlink="http://www.w3.org/1999/xlink">
 
+  <!-- All-inclusive service group to be used for individual files -->
   <service name="all" serviceType="Compound" base="">
-    
     <service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/"/>
     <service name="opendap" serviceType="OPENDAP" base="/thredds/dodsC/"/>
     <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
     <service name="cdmremote" serviceType="CdmRemote" base="/thredds/cdmremote/"/>
-    
     <service name="wcs" serviceType="WCS" base="/thredds/wcs/"/>
     <service name="wms" serviceType="WMS" base="/thredds/wms/"/>
-    
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+  </service>
+  
+  <!-- Service group to be used for aggregations (includes all services except
+       HTTPServer) -->
+  <service name="agg_services" serviceType="Compound" base="">
+    <service name="opendap" serviceType="OPENDAP" base="/thredds/dodsC/"/>
+    <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
+    <service name="cdmremote" serviceType="CdmRemote" base="/thredds/cdmremote/"/>
+    <service name="wcs" serviceType="WCS" base="/thredds/wcs/"/>
+    <service name="wms" serviceType="WMS" base="/thredds/wms/"/>
     <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
     <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
     <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
@@ -75,7 +86,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
          ID="ds601.0_NRCM_1995_2005-AGG"
          urlPath="aggregations/ds601.0/10/best"
          harvest="true">
-         <serviceName>all</serviceName>
+         <serviceName>agg_services</serviceName>
          <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
            <aggregation type="Union">
                <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds601.0/101/glw"/>
@@ -497,7 +508,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
          ID="ds601.0_NRCM_2020_2030-AGG"
          urlPath="aggregations/ds601.0/20/best"
          harvest="true">
-         <serviceName>all</serviceName>
+         <serviceName>agg_services</serviceName>
          <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
            <aggregation type="Union">
                <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds601.0/201/glw"/>
@@ -919,7 +930,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
          ID="ds601.0_NRCM_2045_2055-AGG"
          urlPath="aggregations/ds601.0/30/best"
          harvest="true">
-         <serviceName>all</serviceName>
+         <serviceName>agg_services</serviceName>
          <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
            <aggregation type="Union">
                <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds601.0/301/glw"/>
