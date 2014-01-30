@@ -34,7 +34,7 @@
 
     <dataset name="ds601.0">
         <metadata inherited="true">
-            <serviceName>all</serviceName>
+          <serviceName>all</serviceName>
           <dataFormat>NetCDF</dataFormat>
           <dataType>GRID</dataType>
           <documentation type="Rights">Freely Available</documentation>
@@ -128,6 +128,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
          
          harvest="true">
 
+         <serviceName>agg_services</serviceName>
          <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
              <aggregation dimName="time" type="joinExisting">
                 <scan location="/glade/p/rda/data/ds601.0/RCPP/1995_2005/glw/" suffix=".nc" subdirs="true"/>
