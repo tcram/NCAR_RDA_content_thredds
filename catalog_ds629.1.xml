@@ -74,7 +74,7 @@ ds629.1 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
 
          <dataset name="Analysis">
        
-             <featureCollection name="Surface"
+             <featureCollection name="ds629.1_an_sfc"
                                 featureType="GRIB"
                                 harvest="true"
                                 path="aggregations/ds629.1/9">
@@ -100,7 +100,7 @@ ds629.1 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
        
          <dataset name="Forecast">
        
-             <featureCollection name="Surface"
+             <featureCollection name="ds629.1_fc_sfc"
                                 featureType="GRIB"
                                 harvest="true"
                                 path="aggregations/ds629.1/15">
