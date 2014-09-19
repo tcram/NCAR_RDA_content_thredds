@@ -62,7 +62,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
       <!--  Files -->
 
      <datasetScan name="ds502.0 Files" 
-                  path="files/ds502.0" 
+                  path="files/g/ds502.0" 
                   location="/glade/p/rda/data/ds502.0">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -78,7 +78,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
 
      <dataset name="ds502.0 Aggregations" 
              ID="ds502.0-AGG" 
-             urlPath="aggregations/ds502.0/2/best" 
+             urlPath="aggregations/g/ds502.0/2/best" 
              harvest="true">
        <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
          <aggregation dimName="time" type="joinExisting">

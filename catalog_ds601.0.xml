@@ -66,7 +66,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
       <!--  Files -->
 
      <datasetScan name="ds601.0 Files" 
-                  path="files/ds601.0" 
+                  path="files/g/ds601.0" 
                   location="/glade/p/rda/data/ds601.0">
          <metadata inherited="true">
          <serviceName>all</serviceName>
@@ -84,7 +84,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
      <dataset name="NRCM 1995-2005 Simulation">
        <dataset name="NRCM 1995-2005 Aggregation"
          ID="ds601.0_NRCM_1995_2005-AGG"
-         urlPath="aggregations/ds601.0/10/best"
+         urlPath="aggregations/g/ds601.0/10/best"
          harvest="true">
          <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
            <aggregation type="Union">
@@ -459,7 +459,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
      <dataset name="NRCM 2020-2030 Simulation">
        <dataset name="NRCM 2020-2030 Aggregation"
          ID="ds601.0_NRCM_2020_2030-AGG"
-         urlPath="aggregations/ds601.0/20/best"
+         urlPath="aggregations/g/ds601.0/20/best"
          harvest="true">
          <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
            <aggregation type="Union">
@@ -852,7 +852,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
      <dataset name="NRCM 2045-2055 Simulation">
        <dataset name="NRCM 2045-2055 Aggregation"
          ID="ds601.0_NRCM_2045_2055-AGG"
-         urlPath="aggregations/ds601.0/30/best"
+         urlPath="aggregations/g/ds601.0/30/best"
          harvest="true">
          <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
            <aggregation type="Union">

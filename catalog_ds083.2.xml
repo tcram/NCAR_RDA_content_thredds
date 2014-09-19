@@ -58,7 +58,7 @@ The archive time series is continuously extended to a near-current date. It is n
 
 
       <datasetScan name="ds083.2 Files" 
-                  path="files/ds083.2" 
+                  path="files/g/ds083.2" 
                   location="/glade/p/rda/data/ds083.2">
          <metadata inherited="true">
           <serviceName>all</serviceName>
@@ -75,7 +75,7 @@ The archive time series is continuously extended to a near-current date. It is n
      <featureCollection name="ds083.2 Aggregations"
                      featureType="GRIB"
                      harvest="true"
-                     path="aggregations/ds083.2/1">
+                     path="aggregations/g/ds083.2/1">
          <metadata inherited="true">
           <serviceName>all</serviceName>
         </metadata>

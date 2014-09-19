@@ -53,7 +53,7 @@ The Arctic System Reanalysis (ASR) is produced using a high-resolution version o
       <!--  Files -->
 
      <datasetScan name="ds631.0 Files" 
-                  path="files/ds631.0" 
+                  path="files/g/ds631.0" 
                   location="/glade/p/rda/data/ds631.0">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -69,7 +69,7 @@ The Arctic System Reanalysis (ASR) is produced using a high-resolution version o
 
          <dataset name="ASR 30 km 3d pressure level analysis"
                   ID="ds631.0_anl_3d-AGG"
-                  urlPath="aggregations/ds631.0/6/best"
+                  urlPath="aggregations/g/ds631.0/6/best"
                   harvest="true">
              <metadata inherited="true">
                  <serviceName>all</serviceName>
@@ -91,7 +91,7 @@ The Arctic System Reanalysis (ASR) is produced using a high-resolution version o
        
          <dataset name="ASR 30 km 2d surface analysis"
                   ID="ds631.0_anl_2d-AGG"
-                  urlPath="aggregations/ds631.0/9/best"
+                  urlPath="aggregations/g/ds631.0/9/best"
                   harvest="true">
              <metadata inherited="true">
                  <serviceName>all</serviceName>
@@ -114,7 +114,7 @@ The Arctic System Reanalysis (ASR) is produced using a high-resolution version o
        
          <dataset name="ASR 30 km 3d pressure level forecast"
                   ID="ds631.0_fcst_3d-AGG"
-                  urlPath="aggregations/ds631.0/14/best"
+                  urlPath="aggregations/g/ds631.0/14/best"
                   harvest="true">
              <metadata inherited="true">
                  <serviceName>all</serviceName>
@@ -136,7 +136,7 @@ The Arctic System Reanalysis (ASR) is produced using a high-resolution version o
        
          <dataset name="ASR 30 km 2d surface forecast"
                   ID="ds631.0_fcst_2d-AGG"
-                  urlPath="aggregations/ds631.0/15/best"
+                  urlPath="aggregations/g/ds631.0/15/best"
                   harvest="true">
              <metadata inherited="true">
                  <serviceName>all</serviceName>
@@ -158,7 +158,7 @@ The Arctic System Reanalysis (ASR) is produced using a high-resolution version o
        
          <dataset name="ASR 30km monthly means of analysis products"
                   ID="ds631.0_anl_monthly-AGG"
-                  urlPath="aggregations/ds631.0/21/best"
+                  urlPath="aggregations/g/ds631.0/21/best"
                   harvest="true">
              <metadata inherited="true">
                  <serviceName>all</serviceName>
@@ -197,7 +197,7 @@ The Arctic System Reanalysis (ASR) is produced using a high-resolution version o
        
          <dataset name="ASR 30km monthly means of forecast products"
                   ID="ds631.0_fcst_monthly-AGG"
-                  urlPath="aggregations/ds631.0/22/best"
+                  urlPath="aggregations/g/ds631.0/22/best"
                   harvest="true">
              <metadata inherited="true">
                  <serviceName>all</serviceName>

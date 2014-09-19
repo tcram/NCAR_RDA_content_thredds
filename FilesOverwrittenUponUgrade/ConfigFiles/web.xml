@@ -742,28 +742,28 @@
   </security-constraint>
 
 
-  <!-- RDA Lockdown of OPeNDAP access -->
+  <!-- General RDA Lockdown of OPeNDAP access -->
   <security-constraint>
     <web-resource-collection>
-      <web-resource-name>RDA Lockdown of OPeNDAP access</web-resource-name>
-      <!--url-pattern>/dodsC/*</url-pattern>
-      <url-pattern>/fileServer/*</url-pattern>
-      <url-pattern>/wcs/*</url-pattern>
-      <url-pattern>/ncss/*</url-pattern>
-      <url-pattern>/cdmremote/*</url-pattern>
-      <url-pattern>/ncml/*</url-pattern-->
-      <url-pattern>/dodsC/aggregations/*</url-pattern>
-      <url-pattern>/fileServer/aggregations/*</url-pattern>
-      <url-pattern>/wcs/aggregations/*</url-pattern>
-      <url-pattern>/ncss/aggregations/*</url-pattern>
-      <url-pattern>/cdmremote/aggregations/*</url-pattern>
-      <url-pattern>/ncml/aggregations/*</url-pattern>
-      <url-pattern>/dodsC/files/*</url-pattern>
-      <url-pattern>/fileServer/files/*</url-pattern>
-      <url-pattern>/wcs/files/*</url-pattern>
-      <url-pattern>/ncss/files/*</url-pattern>
-      <url-pattern>/cdmremote/files/*</url-pattern>
-      <url-pattern>/ncml/files/*</url-pattern>
+      <web-resource-name>General RDA Lockdown of OPeNDAP access</web-resource-name>
+      <!--url-pattern>/dodsC/g/*</url-pattern>
+      <url-pattern>/fileServer/g/*</url-pattern>
+      <url-pattern>/wcs/g/*</url-pattern>
+      <url-pattern>/ncss/grid/g/*</url-pattern>
+      <url-pattern>/cdmremote/g/*</url-pattern>
+      <url-pattern>/ncml/g/*</url-pattern-->
+      <url-pattern>/dodsC/aggregations/g/*</url-pattern>
+      <url-pattern>/fileServer/aggregations/g/*</url-pattern>
+      <url-pattern>/wcs/aggregations/g/*</url-pattern>
+      <url-pattern>/ncss/grid/aggregations/g/*</url-pattern>
+      <url-pattern>/cdmremote/aggregations/g/*</url-pattern>
+      <url-pattern>/ncml/aggregations/g/*</url-pattern>
+      <url-pattern>/dodsC/files/g/*</url-pattern>
+      <url-pattern>/fileServer/files/g/*</url-pattern>
+      <url-pattern>/wcs/files/g/*</url-pattern>
+      <url-pattern>/ncss/files/g/*</url-pattern>
+      <url-pattern>/cdmremote/files/g/*</url-pattern>
+      <url-pattern>/ncml/files/g/*</url-pattern>
       <!-- 
            If we want to expose catalog AND G2, need to also expose WMS.
            Otherwise need to have all open, or all closed for G2 to work
@@ -777,6 +777,159 @@
     </web-resource-collection>
     <auth-constraint>
       <role-name>odap</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <!-- RDA Lockdown of OPeNDAP to ecmwf operational dataset access -->
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>RDA Lockdown of OPeNDAP access to ecmwf reanalyses</web-resource-name>
+      <!--url-pattern>/dodsC/e/*</url-pattern>
+      <url-pattern>/fileServer/e/*</url-pattern>
+      <url-pattern>/wcs/e/*</url-pattern>
+      <url-pattern>/ncss/grid/e/*</url-pattern>
+      <url-pattern>/cdmremote/e/*</url-pattern>
+      <url-pattern>/ncml/e/*</url-pattern-->
+      <url-pattern>/dodsC/aggregations/e/*</url-pattern>
+      <url-pattern>/fileServer/aggregations/e/*</url-pattern>
+      <url-pattern>/wcs/aggregations/e/*</url-pattern>
+      <url-pattern>/ncss/grid/aggregations/e/*</url-pattern>
+      <url-pattern>/cdmremote/aggregations/e/*</url-pattern>
+      <url-pattern>/ncml/aggregations/e/*</url-pattern>
+      <url-pattern>/dodsC/files/e/*</url-pattern>
+      <url-pattern>/fileServer/files/e/*</url-pattern>
+      <url-pattern>/wcs/files/e/*</url-pattern>
+      <url-pattern>/ncss/files/e/*</url-pattern>
+      <url-pattern>/cdmremote/files/e/*</url-pattern>
+      <url-pattern>/ncml/files/e/*</url-pattern>
+      <!--
+           If we want to expose catalog AND G2, need to also expose WMS.
+           Otherwise need to have all open, or all closed for G2 to work
+      -->
+      <!--
+      <url-pattern>/wms/*</url-pattern>
+      <url-pattern>/godiva2/*</url-pattern>
+      <url-pattern>/*</url-pattern>
+      -->
+      <http-method>GET</http-method>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>e</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <!-- RDA Lockdown of OPeNDAP to ecmwf operational dataset access -->
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>RDA Lockdown of OPeNDAP access to era-i</web-resource-name>
+      <!--url-pattern>/dodsC/ecoper/*</url-pattern>
+      <url-pattern>/fileServer/ecoper/*</url-pattern>
+      <url-pattern>/wcs/ecoper/*</url-pattern>
+      <url-pattern>/ncss/grid/ecoper/*</url-pattern>
+      <url-pattern>/cdmremote/ecoper/*</url-pattern>
+      <url-pattern>/ncml/ecoper/*</url-pattern-->
+      <url-pattern>/dodsC/aggregations/ecoper/*</url-pattern>
+      <url-pattern>/fileServer/aggregations/ecoper/*</url-pattern>
+      <url-pattern>/wcs/aggregations/ecoper/*</url-pattern>
+      <url-pattern>/ncss/grid/aggregations/ecoper/*</url-pattern>
+      <url-pattern>/cdmremote/aggregations/ecoper/*</url-pattern>
+      <url-pattern>/ncml/aggregations/ecoper/*</url-pattern>
+      <url-pattern>/dodsC/files/ecoper/*</url-pattern>
+      <url-pattern>/fileServer/files/ecoper/*</url-pattern>
+      <url-pattern>/wcs/files/ecoper/*</url-pattern>
+      <url-pattern>/ncss/files/ecoper/*</url-pattern>
+      <url-pattern>/cdmremote/files/ecoper/*</url-pattern>
+      <url-pattern>/ncml/files/ecoper/*</url-pattern>
+      <!--
+           If we want to expose catalog AND G2, need to also expose WMS.
+           Otherwise need to have all open, or all closed for G2 to work
+      -->
+      <!--
+      <url-pattern>/wms/*</url-pattern>
+      <url-pattern>/godiva2/*</url-pattern>
+      <url-pattern>/*</url-pattern>
+      -->
+      <http-method>GET</http-method>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>ecoper</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <!-- RDA Lockdown of OPeNDAP to jra 25 dataset access -->
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>RDA Lockdown of OPeNDAP access to jra 25</web-resource-name>
+      <!--url-pattern>/dodsC/jra25/*</url-pattern>
+      <url-pattern>/fileServer/jra25/*</url-pattern>
+      <url-pattern>/wcs/jra25/*</url-pattern>
+      <url-pattern>/ncss/grid/jra25/*</url-pattern>
+      <url-pattern>/cdmremote/jra25/*</url-pattern>
+      <url-pattern>/ncml/jra25/*</url-pattern-->
+      <url-pattern>/dodsC/aggregations/jra25/*</url-pattern>
+      <url-pattern>/fileServer/aggregations/jra25/*</url-pattern>
+      <url-pattern>/wcs/aggregations/jra25/*</url-pattern>
+      <url-pattern>/ncss/grid/aggregations/jra25/*</url-pattern>
+      <url-pattern>/cdmremote/aggregations/jra25/*</url-pattern>
+      <url-pattern>/ncml/aggregations/jra25/*</url-pattern>
+      <url-pattern>/dodsC/files/jra25/*</url-pattern>
+      <url-pattern>/fileServer/files/jra25/*</url-pattern>
+      <url-pattern>/wcs/files/jra25/*</url-pattern>
+      <url-pattern>/ncss/files/jra25/*</url-pattern>
+      <url-pattern>/cdmremote/files/jra25/*</url-pattern>
+      <url-pattern>/ncml/files/jra25/*</url-pattern>
+      <!--
+           If we want to expose catalog AND G2, need to also expose WMS.
+           Otherwise need to have all open, or all closed for G2 to work
+      -->
+      <!--
+      <url-pattern>/wms/*</url-pattern>
+      <url-pattern>/godiva2/*</url-pattern>
+      <url-pattern>/*</url-pattern>
+      -->
+      <http-method>GET</http-method>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>jra25</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+
+  <!-- RDA Lockdown of OPeNDAP to jra 55 dataset access -->
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>RDA Lockdown of OPeNDAP access to jra 55</web-resource-name>
+      <!--url-pattern>/dodsC/JRA55/*</url-pattern>
+      <url-pattern>/fileServer/JRA55/*</url-pattern>
+      <url-pattern>/wcs/JRA55/*</url-pattern>
+      <url-pattern>/ncss/grid/JRA55/*</url-pattern>
+      <url-pattern>/cdmremote/JRA55/*</url-pattern>
+      <url-pattern>/ncml/JRA55/*</url-pattern-->
+      <url-pattern>/dodsC/aggregations/JRA55/*</url-pattern>
+      <url-pattern>/fileServer/aggregations/JRA55/*</url-pattern>
+      <url-pattern>/wcs/aggregations/JRA55/*</url-pattern>
+      <url-pattern>/ncss/grid/aggregations/JRA55/*</url-pattern>
+      <url-pattern>/cdmremote/aggregations/JRA55/*</url-pattern>
+      <url-pattern>/ncml/aggregations/JRA55/*</url-pattern>
+      <url-pattern>/dodsC/files/JRA55/*</url-pattern>
+      <url-pattern>/fileServer/files/JRA55/*</url-pattern>
+      <url-pattern>/wcs/files/JRA55/*</url-pattern>
+      <url-pattern>/ncss/files/JRA55/*</url-pattern>
+      <url-pattern>/cdmremote/files/JRA55/*</url-pattern>
+      <url-pattern>/ncml/files/JRA55/*</url-pattern>
+      <!--
+           If we want to expose catalog AND G2, need to also expose WMS.
+           Otherwise need to have all open, or all closed for G2 to work
+      -->
+      <!--
+      <url-pattern>/wms/*</url-pattern>
+      <url-pattern>/godiva2/*</url-pattern>
+      <url-pattern>/*</url-pattern>
+      -->
+      <http-method>GET</http-method>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>JRA55</role-name>
     </auth-constraint>
   </security-constraint>
 
@@ -826,8 +979,28 @@
   </security-role>
 
   <security-role>
-    <description>RDA Users Authentication Role</description>
+    <description>General RDA Users Authentication Role</description>
     <role-name>odap</role-name>
+  </security-role>
+
+  <security-role>
+    <description>ERA-I and ERA-40 RDA Users Authentication Role</description>
+    <role-name>e</role-name>
+  </security-role>
+
+  <security-role>
+    <description>ECMWF operational RDA Users Authentication Role</description>
+    <role-name>ecoper</role-name>
+  </security-role>
+
+  <security-role>
+    <description>JRA-55 RDA Users Authentication Role</description>
+    <role-name>JRA55</role-name>
+  </security-role>
+
+  <security-role>
+    <description>JRA-25 RDA Users Authentication Role</description>
+    <role-name>jra25</role-name>
   </security-role>
 
 </web-app>

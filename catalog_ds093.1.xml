@@ -56,7 +56,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
 
 
      <datasetScan name="ds093.1 Files" 
-                  path="files/ds093.1" 
+                  path="files/g/ds093.1" 
                   location="/glade/p/rda/data/ds093.1">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -74,7 +74,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_4lftx Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/4lftx">
+                            path="aggregations/g/ds093.1/0/4lftx">
              <metadata inherited="true">
                  <serviceName>all</serviceName>
              </metadata>
@@ -96,7 +96,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_apcp Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/apcp">
+                            path="aggregations/g/ds093.1/0/apcp">
              <metadata inherited="true">
                  <serviceName>all</serviceName>
              </metadata>
@@ -118,7 +118,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_cape.sfc Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/cape.sfc">
+                            path="aggregations/g/ds093.1/0/cape.sfc">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -140,7 +140,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_cfrzr Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/cfrzr">
+                            path="aggregations/g/ds093.1/0/cfrzr">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -162,7 +162,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_chi200 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/chi200">
+                            path="aggregations/g/ds093.1/0/chi200">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -184,7 +184,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_chi200.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/chi200.l">
+                            path="aggregations/g/ds093.1/0/chi200.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -206,7 +206,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_chi850 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/chi850">
+                            path="aggregations/g/ds093.1/0/chi850">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -228,7 +228,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_chi850.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/chi850.l">
+                            path="aggregations/g/ds093.1/0/chi850.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -250,7 +250,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_cicep Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/cicep">
+                            path="aggregations/g/ds093.1/0/cicep">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -272,7 +272,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_cldcovlow Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/cldcovlow">
+                            path="aggregations/g/ds093.1/0/cldcovlow">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -294,7 +294,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_cldcovmid Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/cldcovmid">
+                            path="aggregations/g/ds093.1/0/cldcovmid">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -316,7 +316,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_cldcovtot Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/cldcovtot">
+                            path="aggregations/g/ds093.1/0/cldcovtot">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -338,7 +338,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_clwmr1000 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/clwmr1000">
+                            path="aggregations/g/ds093.1/0/clwmr1000">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -360,7 +360,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_cprat Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/cprat">
+                            path="aggregations/g/ds093.1/0/cprat">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -382,7 +382,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_crain Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/crain">
+                            path="aggregations/g/ds093.1/0/crain">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -404,7 +404,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_csnow Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/csnow">
+                            path="aggregations/g/ds093.1/0/csnow">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -426,7 +426,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_dlwsfc Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/dlwsfc">
+                            path="aggregations/g/ds093.1/0/dlwsfc">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -448,7 +448,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_dlwsfc.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/dlwsfc.l">
+                            path="aggregations/g/ds093.1/0/dlwsfc.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -470,7 +470,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_dpt2m Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/dpt2m">
+                            path="aggregations/g/ds093.1/0/dpt2m">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -492,7 +492,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_dswsfc Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/dswsfc">
+                            path="aggregations/g/ds093.1/0/dswsfc">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -514,7 +514,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_dswsfc.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/dswsfc.l">
+                            path="aggregations/g/ds093.1/0/dswsfc.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -536,7 +536,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_gflux Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/gflux">
+                            path="aggregations/g/ds093.1/0/gflux">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -558,7 +558,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_gflux.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/gflux.l">
+                            path="aggregations/g/ds093.1/0/gflux.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -580,7 +580,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_hpbl Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/hpbl">
+                            path="aggregations/g/ds093.1/0/hpbl">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -602,7 +602,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_icecon Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/icecon">
+                            path="aggregations/g/ds093.1/0/icecon">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -624,7 +624,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_icecon.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/icecon.l">
+                            path="aggregations/g/ds093.1/0/icecon.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -646,7 +646,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_icethk Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/icethk">
+                            path="aggregations/g/ds093.1/0/icethk">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -668,7 +668,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_icethk.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/icethk.l">
+                            path="aggregations/g/ds093.1/0/icethk.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -690,7 +690,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ipv450 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ipv450">
+                            path="aggregations/g/ds093.1/0/ipv450">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -712,7 +712,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ipv450.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ipv450.l">
+                            path="aggregations/g/ds093.1/0/ipv450.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -734,7 +734,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ipv550 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ipv550">
+                            path="aggregations/g/ds093.1/0/ipv550">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -756,7 +756,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ipv550.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ipv550.l">
+                            path="aggregations/g/ds093.1/0/ipv550.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -778,7 +778,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ipv650 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ipv650">
+                            path="aggregations/g/ds093.1/0/ipv650">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -800,7 +800,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ipv650.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ipv650.l">
+                            path="aggregations/g/ds093.1/0/ipv650.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -822,7 +822,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_lftx Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/lftx">
+                            path="aggregations/g/ds093.1/0/lftx">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -844,7 +844,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_lhtfl Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/lhtfl">
+                            path="aggregations/g/ds093.1/0/lhtfl">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -866,7 +866,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_lhtfl.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/lhtfl.l">
+                            path="aggregations/g/ds093.1/0/lhtfl.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -888,7 +888,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocndt20c Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocndt20c">
+                            path="aggregations/g/ds093.1/0/ocndt20c">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -910,7 +910,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocndt20c.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocndt20c.l">
+                            path="aggregations/g/ds093.1/0/ocndt20c.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -932,7 +932,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnheat Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnheat">
+                            path="aggregations/g/ds093.1/0/ocnheat">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -954,7 +954,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnheat.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnheat.l">
+                            path="aggregations/g/ds093.1/0/ocnheat.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -976,7 +976,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnmld Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnmld">
+                            path="aggregations/g/ds093.1/0/ocnmld">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -998,7 +998,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnmld.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnmld.l">
+                            path="aggregations/g/ds093.1/0/ocnmld.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1020,7 +1020,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnsal15 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnsal15">
+                            path="aggregations/g/ds093.1/0/ocnsal15">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1042,7 +1042,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnsal15.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnsal15.l">
+                            path="aggregations/g/ds093.1/0/ocnsal15.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1064,7 +1064,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnsal5 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnsal5">
+                            path="aggregations/g/ds093.1/0/ocnsal5">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1086,7 +1086,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnsal5.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnsal5.l">
+                            path="aggregations/g/ds093.1/0/ocnsal5.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1108,7 +1108,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnslh Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnslh">
+                            path="aggregations/g/ds093.1/0/ocnslh">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1130,7 +1130,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnslh.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnslh.l">
+                            path="aggregations/g/ds093.1/0/ocnslh.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1152,7 +1152,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnsst Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnsst">
+                            path="aggregations/g/ds093.1/0/ocnsst">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1174,7 +1174,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnsst.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnsst.l">
+                            path="aggregations/g/ds093.1/0/ocnsst.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1196,7 +1196,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnt15 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnt15">
+                            path="aggregations/g/ds093.1/0/ocnt15">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1218,7 +1218,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnt15.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnt15.l">
+                            path="aggregations/g/ds093.1/0/ocnt15.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1240,7 +1240,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnu15 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnu15">
+                            path="aggregations/g/ds093.1/0/ocnu15">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1262,7 +1262,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnu15.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnu15.l">
+                            path="aggregations/g/ds093.1/0/ocnu15.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1284,7 +1284,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnu5 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnu5">
+                            path="aggregations/g/ds093.1/0/ocnu5">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1306,7 +1306,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnu5.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnu5.l">
+                            path="aggregations/g/ds093.1/0/ocnu5.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1328,7 +1328,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnv15 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnv15">
+                            path="aggregations/g/ds093.1/0/ocnv15">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1350,7 +1350,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnv15.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnv15.l">
+                            path="aggregations/g/ds093.1/0/ocnv15.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1372,7 +1372,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnv5 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnv5">
+                            path="aggregations/g/ds093.1/0/ocnv5">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1394,7 +1394,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnv5.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnv5.l">
+                            path="aggregations/g/ds093.1/0/ocnv5.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1416,7 +1416,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnvv55 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnvv55">
+                            path="aggregations/g/ds093.1/0/ocnvv55">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1438,7 +1438,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ocnvv55.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ocnvv55.l">
+                            path="aggregations/g/ds093.1/0/ocnvv55.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1460,7 +1460,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_pli Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/pli">
+                            path="aggregations/g/ds093.1/0/pli">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1482,7 +1482,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_prate Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/prate">
+                            path="aggregations/g/ds093.1/0/prate">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1504,7 +1504,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_prate.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/prate.l">
+                            path="aggregations/g/ds093.1/0/prate.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1526,7 +1526,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_pressfc Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/pressfc">
+                            path="aggregations/g/ds093.1/0/pressfc">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1548,7 +1548,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_pressfc.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/pressfc.l">
+                            path="aggregations/g/ds093.1/0/pressfc.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1570,7 +1570,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_prmsl Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/prmsl">
+                            path="aggregations/g/ds093.1/0/prmsl">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1592,7 +1592,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_prmsl.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/prmsl.l">
+                            path="aggregations/g/ds093.1/0/prmsl.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1614,7 +1614,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_psi200 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/psi200">
+                            path="aggregations/g/ds093.1/0/psi200">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1636,7 +1636,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_psi200.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/psi200.l">
+                            path="aggregations/g/ds093.1/0/psi200.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1658,7 +1658,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_psi850 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/psi850">
+                            path="aggregations/g/ds093.1/0/psi850">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1680,7 +1680,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_psi850.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/psi850.l">
+                            path="aggregations/g/ds093.1/0/psi850.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1702,7 +1702,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_pwat Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/pwat">
+                            path="aggregations/g/ds093.1/0/pwat">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1724,7 +1724,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_pwat.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/pwat.l">
+                            path="aggregations/g/ds093.1/0/pwat.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1746,7 +1746,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_q2m Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/q2m">
+                            path="aggregations/g/ds093.1/0/q2m">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1768,7 +1768,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_q2m.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/q2m.l">
+                            path="aggregations/g/ds093.1/0/q2m.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1790,7 +1790,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_q500 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/q500">
+                            path="aggregations/g/ds093.1/0/q500">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1812,7 +1812,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_q500.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/q500.l">
+                            path="aggregations/g/ds093.1/0/q500.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1834,7 +1834,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_q700 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/q700">
+                            path="aggregations/g/ds093.1/0/q700">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1856,7 +1856,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_q700.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/q700.l">
+                            path="aggregations/g/ds093.1/0/q700.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1878,7 +1878,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_q850 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/q850">
+                            path="aggregations/g/ds093.1/0/q850">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1900,7 +1900,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_q850.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/q850.l">
+                            path="aggregations/g/ds093.1/0/q850.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1922,7 +1922,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_q925 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/q925">
+                            path="aggregations/g/ds093.1/0/q925">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1944,7 +1944,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_q925.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/q925.l">
+                            path="aggregations/g/ds093.1/0/q925.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1966,7 +1966,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_rh2m Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/rh2m">
+                            path="aggregations/g/ds093.1/0/rh2m">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -1988,7 +1988,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_runoff Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/runoff">
+                            path="aggregations/g/ds093.1/0/runoff">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2010,7 +2010,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_runoff.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/runoff.l">
+                            path="aggregations/g/ds093.1/0/runoff.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2032,7 +2032,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_shtfl Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/shtfl">
+                            path="aggregations/g/ds093.1/0/shtfl">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2054,7 +2054,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_shtfl.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/shtfl.l">
+                            path="aggregations/g/ds093.1/0/shtfl.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2076,7 +2076,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_snohf Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/snohf">
+                            path="aggregations/g/ds093.1/0/snohf">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2098,7 +2098,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_snohf.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/snohf.l">
+                            path="aggregations/g/ds093.1/0/snohf.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2120,7 +2120,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_soilm1 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/soilm1">
+                            path="aggregations/g/ds093.1/0/soilm1">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2142,7 +2142,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_soilm1.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/soilm1.l">
+                            path="aggregations/g/ds093.1/0/soilm1.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2164,7 +2164,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_soilm1x0.5 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/soilm1x0.5">
+                            path="aggregations/g/ds093.1/0/soilm1x0.5">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2186,7 +2186,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_soilm2 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/soilm2">
+                            path="aggregations/g/ds093.1/0/soilm2">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2208,7 +2208,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_soilm2.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/soilm2.l">
+                            path="aggregations/g/ds093.1/0/soilm2.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2230,7 +2230,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_soilm2x0.5 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/soilm2x0.5">
+                            path="aggregations/g/ds093.1/0/soilm2x0.5">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2252,7 +2252,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_soilm3 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/soilm3">
+                            path="aggregations/g/ds093.1/0/soilm3">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2274,7 +2274,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_soilm3.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/soilm3.l">
+                            path="aggregations/g/ds093.1/0/soilm3.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2296,7 +2296,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_soilm3x0.5 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/soilm3x0.5">
+                            path="aggregations/g/ds093.1/0/soilm3x0.5">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2318,7 +2318,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_soilm4 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/soilm4">
+                            path="aggregations/g/ds093.1/0/soilm4">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2340,7 +2340,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_soilm4.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/soilm4.l">
+                            path="aggregations/g/ds093.1/0/soilm4.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2362,7 +2362,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_soilm4x0.5 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/soilm4x0.5">
+                            path="aggregations/g/ds093.1/0/soilm4x0.5">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2384,7 +2384,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_soilt1 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/soilt1">
+                            path="aggregations/g/ds093.1/0/soilt1">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2406,7 +2406,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_soilt1.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/soilt1.l">
+                            path="aggregations/g/ds093.1/0/soilt1.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2428,7 +2428,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_swe Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/swe">
+                            path="aggregations/g/ds093.1/0/swe">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2450,7 +2450,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_swe.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/swe.l">
+                            path="aggregations/g/ds093.1/0/swe.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2472,7 +2472,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_swex0.5 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/swex0.5">
+                            path="aggregations/g/ds093.1/0/swex0.5">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2494,7 +2494,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_t1000 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/t1000">
+                            path="aggregations/g/ds093.1/0/t1000">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2516,7 +2516,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_t1000.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/t1000.l">
+                            path="aggregations/g/ds093.1/0/t1000.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2538,7 +2538,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_t2 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/t2">
+                            path="aggregations/g/ds093.1/0/t2">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2560,7 +2560,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_t2.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/t2.l">
+                            path="aggregations/g/ds093.1/0/t2.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2582,7 +2582,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_t200 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/t200">
+                            path="aggregations/g/ds093.1/0/t200">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2604,7 +2604,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_t200.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/t200.l">
+                            path="aggregations/g/ds093.1/0/t200.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2626,7 +2626,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_t50 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/t50">
+                            path="aggregations/g/ds093.1/0/t50">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2648,7 +2648,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_t50.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/t50.l">
+                            path="aggregations/g/ds093.1/0/t50.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2670,7 +2670,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_t500 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/t500">
+                            path="aggregations/g/ds093.1/0/t500">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2692,7 +2692,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_t500.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/t500.l">
+                            path="aggregations/g/ds093.1/0/t500.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2714,7 +2714,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_t700 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/t700">
+                            path="aggregations/g/ds093.1/0/t700">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2736,7 +2736,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_t700.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/t700.l">
+                            path="aggregations/g/ds093.1/0/t700.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2758,7 +2758,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_t850 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/t850">
+                            path="aggregations/g/ds093.1/0/t850">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2780,7 +2780,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_t850.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/t850.l">
+                            path="aggregations/g/ds093.1/0/t850.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2802,7 +2802,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_tmax Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/tmax">
+                            path="aggregations/g/ds093.1/0/tmax">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2824,7 +2824,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_tmax.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/tmax.l">
+                            path="aggregations/g/ds093.1/0/tmax.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2846,7 +2846,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_tmin Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/tmin">
+                            path="aggregations/g/ds093.1/0/tmin">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2868,7 +2868,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_tmin.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/tmin.l">
+                            path="aggregations/g/ds093.1/0/tmin.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2890,7 +2890,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_tmp2m Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/tmp2m">
+                            path="aggregations/g/ds093.1/0/tmp2m">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2912,7 +2912,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_tmp2m.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/tmp2m.l">
+                            path="aggregations/g/ds093.1/0/tmp2m.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2934,7 +2934,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_tmphy1 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/tmphy1">
+                            path="aggregations/g/ds093.1/0/tmphy1">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2956,7 +2956,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_tmphy1.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/tmphy1.l">
+                            path="aggregations/g/ds093.1/0/tmphy1.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -2978,7 +2978,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_tmpsfc Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/tmpsfc">
+                            path="aggregations/g/ds093.1/0/tmpsfc">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3000,7 +3000,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_tmpsfc.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/tmpsfc.l">
+                            path="aggregations/g/ds093.1/0/tmpsfc.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3022,7 +3022,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ulwsfc Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ulwsfc">
+                            path="aggregations/g/ds093.1/0/ulwsfc">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3044,7 +3044,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ulwsfc.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ulwsfc.l">
+                            path="aggregations/g/ds093.1/0/ulwsfc.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3066,7 +3066,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ulwtoa Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ulwtoa">
+                            path="aggregations/g/ds093.1/0/ulwtoa">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3088,7 +3088,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_ulwtoa.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/ulwtoa.l">
+                            path="aggregations/g/ds093.1/0/ulwtoa.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3110,7 +3110,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_uswsfc Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/uswsfc">
+                            path="aggregations/g/ds093.1/0/uswsfc">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3132,7 +3132,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_uswsfc.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/uswsfc.l">
+                            path="aggregations/g/ds093.1/0/uswsfc.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3154,7 +3154,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_uswtoa Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/uswtoa">
+                            path="aggregations/g/ds093.1/0/uswtoa">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3176,7 +3176,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_uswtoa.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/uswtoa.l">
+                            path="aggregations/g/ds093.1/0/uswtoa.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3198,7 +3198,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_vvel500 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/vvel500">
+                            path="aggregations/g/ds093.1/0/vvel500">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3220,7 +3220,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_vvel500.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/vvel500.l">
+                            path="aggregations/g/ds093.1/0/vvel500.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3242,7 +3242,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wnd0-30mb Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wnd0-30mb">
+                            path="aggregations/g/ds093.1/0/wnd0-30mb">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3264,7 +3264,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wnd1000 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wnd1000">
+                            path="aggregations/g/ds093.1/0/wnd1000">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3286,7 +3286,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wnd1000.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wnd1000.l">
+                            path="aggregations/g/ds093.1/0/wnd1000.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3308,7 +3308,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wnd10m Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wnd10m">
+                            path="aggregations/g/ds093.1/0/wnd10m">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3330,7 +3330,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wnd10m.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wnd10m.l">
+                            path="aggregations/g/ds093.1/0/wnd10m.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3352,7 +3352,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wnd10mx0.5 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wnd10mx0.5">
+                            path="aggregations/g/ds093.1/0/wnd10mx0.5">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3374,7 +3374,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wnd200 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wnd200">
+                            path="aggregations/g/ds093.1/0/wnd200">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3396,7 +3396,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wnd200.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wnd200.l">
+                            path="aggregations/g/ds093.1/0/wnd200.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3418,7 +3418,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wnd500 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wnd500">
+                            path="aggregations/g/ds093.1/0/wnd500">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3440,7 +3440,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wnd500.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wnd500.l">
+                            path="aggregations/g/ds093.1/0/wnd500.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3462,7 +3462,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wnd700 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wnd700">
+                            path="aggregations/g/ds093.1/0/wnd700">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3484,7 +3484,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wnd700.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wnd700.l">
+                            path="aggregations/g/ds093.1/0/wnd700.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3506,7 +3506,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wnd850 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wnd850">
+                            path="aggregations/g/ds093.1/0/wnd850">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3528,7 +3528,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wnd850.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wnd850.l">
+                            path="aggregations/g/ds093.1/0/wnd850.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3550,7 +3550,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wndstrs Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wndstrs">
+                            path="aggregations/g/ds093.1/0/wndstrs">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3572,7 +3572,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_wndstrs.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/wndstrs.l">
+                            path="aggregations/g/ds093.1/0/wndstrs.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3594,7 +3594,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_z1000 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/z1000">
+                            path="aggregations/g/ds093.1/0/z1000">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3616,7 +3616,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_z1000.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/z1000.l">
+                            path="aggregations/g/ds093.1/0/z1000.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3638,7 +3638,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_z200 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/z200">
+                            path="aggregations/g/ds093.1/0/z200">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3660,7 +3660,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_z200.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/z200.l">
+                            path="aggregations/g/ds093.1/0/z200.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3682,7 +3682,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_z500 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/z500">
+                            path="aggregations/g/ds093.1/0/z500">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3704,7 +3704,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_z500.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/z500.l">
+                            path="aggregations/g/ds093.1/0/z500.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3726,7 +3726,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_z700 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/z700">
+                            path="aggregations/g/ds093.1/0/z700">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3748,7 +3748,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_z700.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/z700.l">
+                            path="aggregations/g/ds093.1/0/z700.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3770,7 +3770,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_z850 Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/z850">
+                            path="aggregations/g/ds093.1/0/z850">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>
@@ -3792,7 +3792,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
          <featureCollection name="ds093.1_z850.l Aggregations"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/ds093.1/0/z850.l">
+                            path="aggregations/g/ds093.1/0/z850.l">
            <metadata inherited="true">
              <serviceName>all</serviceName>
              </metadata>

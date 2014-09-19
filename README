@@ -2,4 +2,8 @@ This directory contains many of the configurations that the NCAR RDA THREDDS dat
 
 This is housed at GitHub in order to have an offsite copy of the catalogs which take a considerable amount of time to fine tune.  This will also allow for quick updating to mirrored TDS.
 
-klm
+catalog_*.xml files are copied to $CATALINA_HOME/content/thredds
+
+Need to restart tomcat6 after a change has been made "/etc/init.d/tomcat6 restart"
+
+http://www.unidata.ucar.edu/software/thredds/v4.5/tds/reference/collections/GribCollections.html

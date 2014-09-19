@@ -1,0 +1,13 @@
+setenv CLASSPATH /usr/share/java/tomcat6/catalina.jar:/usr/share/tomcat6/bin/tomcat-juli.jar
+
+javac UnixCrypt.java RDA_DataSourceRealm.java RDA_JDBCRealm.java
+
+cp *.class ../../../../../build/classes/edu/ucar/rda/RDARealms/
+
+cd ../../../../../build/classes
+
+jar cf edu.ucar.rda.RDARealms.jar edu
+
+sudo cp edu.ucar.rda.RDARealms.jar $CATALINA_HOME/lib
+
+/etc/init.d/tomcat6 restart

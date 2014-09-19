@@ -53,7 +53,7 @@ The National Centers for Environmental Prediction (NCEP) uses a Global Ocean Dat
 
 
      <datasetScan name="ds277.6 Files" 
-                  path="files/ds277.6" 
+                  path="files/g/ds277.6" 
                   location="/glade/p/rda/data/ds277.6">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -69,7 +69,7 @@ The National Centers for Environmental Prediction (NCEP) uses a Global Ocean Dat
      <featureCollection name="ds277.6 Aggregations"
                         featureType="GRIB"
                         harvest="true"
-                        path="aggregations/ds277.6/1">
+                        path="aggregations/g/ds277.6/1">
    
          <metadata inherited="true">
             <serviceName>all</serviceName>

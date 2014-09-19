@@ -32,7 +32,7 @@
        <Realm className="edu.ucar.rda.RDARealms.RDA_DataSourceRealm" debug="9"
                dataSourceName="jdbc/dsslogin"
                userCredCol="password" userNameCol="email" userTable="ruser"
-               allRolesMode="authOnly" 
+               roleNameCol="acode" userRoleTable="ruser_access"
                localDataSource="true"
        />
     </Realm>
@@ -52,12 +52,10 @@
        in an attempt to stop the issue of requiring multiple logins after 
        server was idle for a while 
        See also: http://www.mail-archive.com/users@tomcat.apache.org/msg101157.html
-
-       CHANGE USERNAME & PASSWORD FROM "******"
   -->
   <Resource name="jdbc/dsslogin" auth="Container" type="javax.sql.DataSource"
                maxActive="100" maxIdle="30" maxWait="10000"
-               username="******" password="******" driverClassName="com.mysql.jdbc.Driver"
+               username="dssdb" password="dssdb" driverClassName="com.mysql.jdbc.Driver"
                url="jdbc:mysql://rda-db.ucar.edu:3306/dssdb"
                testOnBorrow="true"
                validationQuery="/* ping */ SELECT 1" 

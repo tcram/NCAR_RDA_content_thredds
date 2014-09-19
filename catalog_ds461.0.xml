@@ -37,7 +37,7 @@
      <featureCollection name="ds461.0_SYNOP"
                         featureType="Station"
                         harvest="true"
-                        path="aggregations/ds461.0_SYNOP/1">
+                        path="aggregations/o/ds461.0_SYNOP/1">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataType>Station</dataType>
@@ -56,7 +56,7 @@
      <featureCollection name="ds461.0_METAR"
                         featureType="Station"
                         harvest="true"
-                        path="aggregations/ds461.0_METAR/1">
+                        path="aggregations/o/ds461.0_METAR/1">
        <metadata inherited="true">
          <serviceName>all</serviceName>
          <dataType>Station</dataType>

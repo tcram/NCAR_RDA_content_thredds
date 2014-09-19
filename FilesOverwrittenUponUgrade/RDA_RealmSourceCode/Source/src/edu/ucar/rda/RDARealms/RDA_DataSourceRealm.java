@@ -170,15 +170,16 @@ public class RDA_DataSourceRealm extends DataSourceRealm {
             return (null);
         }
 
-		//ArrayList<String> roles = getRoles(username);
-		
+        ArrayList<String> roles = getRoles(dbConnection,username);
+        roles.add("odap");	
 		/** 
 		 * Need to define a role to match with web.xml <auth-constraint><role-name>
 		 * Hardwiring odap for now. 
 		 * 
 		 * TODO: possibly add role to ruser_access table acode column?
 		 */
-		ArrayList<String> roles = new ArrayList<String>() {{ add("odap"); }};
+		// ArrayList<String> roles = new ArrayList<String>() {{ add("odap"); }};
+               
 		
 //			log.info(
 //					"U: " + username +

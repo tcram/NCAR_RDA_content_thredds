@@ -32,7 +32,7 @@
        <Realm className="edu.ucar.rda.RDARealms.RDA_DataSourceRealm" debug="9"
                dataSourceName="jdbc/dsslogin"
                userCredCol="password" userNameCol="email" userTable="ruser"
-               allRolesMode="authOnly" 
+               roleNameCol="acode" userRoleTable="ruser_access"
                localDataSource="true"
        />
     </Realm>
