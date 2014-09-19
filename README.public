@@ -1,1 +1,1 @@
-Copy these files under $CATALINA_HOME/webapps/thredds
+Copy the files under public to  $CATALINA_HOME/webapps/thredds
