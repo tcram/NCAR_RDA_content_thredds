@@ -29,8 +29,6 @@ RDA_RealmSourceCode/
    via the RDA user database.  Pay close attention to the three files found
    under RDA_RealmSourceCode/Source/src/edu/ucar/rda/RDARealms/
 
-   If you want to implemet role-based authorization, this would be a good
-   place to do that.
 
    Place in $CATALINA_HOME/lib/
 
