@@ -82,7 +82,7 @@ The archive time series is continuously extended to a near-current date. It is n
 
          <collection name="ds083.2"
                 ID="ds083.2-AGG"
-                spec="/glade/p/rda/data/ds083.2/grib1/**/fnl_.*_00(_c)*$"
+                spec="/glade/p/rda/data/ds083.2/grib1/**/fnl_.*_00.grib1$"
                 olderThan="0 min"/>
     
          <gribConfig datasetTypes="Best">
