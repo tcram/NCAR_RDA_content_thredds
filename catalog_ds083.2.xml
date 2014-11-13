@@ -21,7 +21,7 @@
 
     <!-- Top level dataset: Needed to set metadata for Files & Aggregations -->
 
-    <dataset name="ds083.2">
+    <dataset name="ds083.2 NCEP FNL Operational Model Global Tropospheric Analyses">
         <metadata inherited="true">
             <serviceName>all</serviceName>
           <dataFormat>GRIB-1</dataFormat>
@@ -43,7 +43,7 @@ The archive time series is continuously extended to a near-current date. It is n
           <authority>edu.ucar.rda</authority>
           <publisher>
             <name vocabulary="DIF">NCAR/RDA</name>
-            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />
+            <contact url="http://rda.ucar.edu/" email="rdahelp@ucar.edu" />
           </publisher>
           <keywords>Numerical Weather Prediction</keywords>
           <keywords>NCEP</keywords>
@@ -72,7 +72,7 @@ The archive time series is continuously extended to a near-current date. It is n
 
      <!--  Aggregations  -->
 
-     <featureCollection name="ds083.2 Aggregations"
+     <featureCollection name="ds083.2 Dataset Aggregation"
                      featureType="GRIB"
                      harvest="true"
                      path="aggregations/g/ds083.2/1">
@@ -80,7 +80,7 @@ The archive time series is continuously extended to a near-current date. It is n
           <serviceName>all</serviceName>
         </metadata>
 
-         <collection name="ds083.2"
+         <collection name="ds083.2 Dataset Aggregation"
                 ID="ds083.2-AGG"
                 spec="/glade/p/rda/data/ds083.2/grib1/**/fnl_.*_00.grib1$"
                 olderThan="0 min"/>

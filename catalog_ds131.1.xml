@@ -21,7 +21,7 @@
 
     <!-- Top level dataset: Needed to set metadata for Files & Aggregations -->
 
-    <dataset name="ds131.1">
+    <dataset name="ds131.1 NOAA-CIRES Twentieth Century Global Reanalysis Version II">
         <metadata inherited="true">
             <serviceName>all</serviceName>
           <dataFormat>GRIB-1</dataFormat>
@@ -39,7 +39,7 @@
           </creator>
           <publisher>
             <name vocabulary="DIF">NCAR/RDA</name>
-            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />
+            <contact url="http://rda.ucar.edu/" email="rdahelp@ucar.edu" />
           </publisher>
           <keywords>Numerical Weather Prediction</keywords>
           <keywords>NCEP</keywords>
@@ -70,21 +70,21 @@
 
      <!-- Aggregations -->
 
-     <dataset name="ds131.1 Aggregations">
+     <dataset name="ds131.1 Dataset Aggregations">
 
-         <dataset name="Synoptic Analysis Fields">
+         <dataset name="NOAA 20th CR Analysis Fields">
                <metadata inherited="true">
                 <serviceName>all</serviceName>
                </metadata>
        
-             <featureCollection name="ds131.1_synop_anl_mean"
+             <featureCollection name="Analysis Fields (2x2 degree Lat/Lon) Ensemble Mean"
                                 featureType="GRIB"
                                 harvest="true"
                                 path="aggregations/g/ds131.1/3/mean">
                <metadata inherited="true">
                  <serviceName>all</serviceName>
                </metadata>
-               <collection name="ds131.1_synop_anl_mean"
+               <collection name="Analysis Fields (2x2 degree Lat/Lon) Ensemble Mean"
                            ID="ds131.1_synop_anl_mean-AGG"
                            spec="/glade/p/rda/data/ds131.1/synop/pgrbanl_mean_.*\.grib$"
                            timePartition="1 year"
@@ -100,14 +100,14 @@
                <update startup="false" trigger="allow"/>
              </featureCollection>
            
-             <featureCollection name="ds131.1_synop_anl_sprd"
+             <featureCollection name="Analysis Fields (2x2 degree Lat/Lon) Ensemble Spread"
                                 featureType="GRIB"
                                 harvest="true"
                                 path="aggregations/g/ds131.1/3/spread">
                <metadata inherited="true">
                  <serviceName>all</serviceName>
                </metadata>
-               <collection name="ds131.1_synop_anl_sprd"
+               <collection name="Analysis Fields (2x2 degree Lat/Lon) Ensemble Spread"
                            ID="ds131.1_synop_anl_sprd-AGG"
                            spec="/glade/p/rda/data/ds131.1/synop/pgrbanl_sprd_.*\.grib$"
                            timePartition="1 year"
@@ -125,20 +125,20 @@
            
          </dataset>
        
-         <dataset name="Synoptic First Guess Forecast Fields">
+         <dataset name="NOAA 20th CR First Guess Forecast Fields">
                <metadata inherited="true">
                 <serviceName>all</serviceName>
                </metadata>
        
        
-             <featureCollection name="ds131.1_synop_fgff_mean"
+             <featureCollection name="First Guess Forecast Fields (Gaussian T-62) Ensemble Mean"
                                 featureType="GRIB"
                                 harvest="true"
                                 path="aggregations/g/ds131.1/4/mean">
                <metadata inherited="true">
                  <serviceName>all</serviceName>
                </metadata>
-               <collection name="ds131.1_synop_fgff_mean"
+               <collection name="First Guess Forecast Fields (Gaussian T-62) Ensemble Mean"
                            ID="ds131.1_synop_fgff_mean-AGG"
                            spec="/glade/p/rda/data/ds131.1/synop/sflxgrbfg_mean_.*\.grib$"
                            timePartition="1 year"
@@ -154,14 +154,14 @@
                <update startup="false" trigger="allow"/>
              </featureCollection>
            
-             <featureCollection name="ds131.1_synop_fgff_sprd"
+             <featureCollection name="First Guess Forecast Fields (Gaussian T-62) Ensemble Spread"
                                 featureType="GRIB"
                                 harvest="true"
                                 path="aggregations/g/ds131.1/4/spread">
                <metadata inherited="true">
                  <serviceName>all</serviceName>
                </metadata>
-               <collection name="ds131.1_synop_fgff_sprd"
+               <collection name="First Guess Forecast Fields (Gaussian T-62) Ensemble Spread"
                            ID="ds131.1_synop_fgff_sprd-AGG"
                            spec="/glade/p/rda/data/ds131.1/synop/sflxgrbfg_sprd_.*\.grib$"
                            timePartition="1 year"

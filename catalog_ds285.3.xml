@@ -21,7 +21,7 @@
 
     <!-- Top level dataset: Needed to set metadata for Files & Aggregations -->
 
-    <dataset name="ds285.3">
+    <dataset name="ds285.3 Subsurface Temperature And Salinity Analyses by Ishii et al.">
         <metadata inherited="true">
           <serviceName>all</serviceName>
           <dataFormat>GRIB-1</dataFormat>  
@@ -41,7 +41,7 @@ The analysis is based on the World Ocean Database/Atlas 2005 WOD05/WOA05, ( ds28
           <authority>edu.ucar.rda</authority>   
           <publisher>   
             <name vocabulary="DIF">NCAR/RDA</name>   
-            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />   
+            <contact url="http://rda.ucar.edu/" email="rdahelp@ucar.edu" />   
           </publisher>   
           <keywords>Numerical Weather Prediction</keywords>   
           <keywords>Ocean</keywords>   
@@ -68,9 +68,9 @@ The analysis is based on the World Ocean Database/Atlas 2005 WOD05/WOA05, ( ds28
 
      <!-- Aggregations -->
 
-     <dataset name="ds285.3 (v6.9) Aggregations">
+     <dataset name="ds285.3 (v6.9) Dataset Aggregations">
        
-         <featureCollection name="ds285.3_6.9_temp"
+         <featureCollection name="SST Analyses for V6.9, 1945-2010"
                             featureType="GRIB"
                             harvest="true"
                             path="aggregations/g/ds285.3/7">
@@ -79,7 +79,7 @@ The analysis is based on the World Ocean Database/Atlas 2005 WOD05/WOA05, ( ds28
                 <serviceName>all</serviceName>
            </metadata>
        
-           <collection name="ds285.3_6.9_temp" 
+           <collection name="SST Analyses for V6.9, 1945-2010" 
                        spec="/glade/p/rda/data/ds285.3/temp6.9/temp\..*\.grb$"
                        dateFormatMark="#temp.#yyyy"
                        olderThan="0 min"/>
@@ -93,7 +93,7 @@ The analysis is based on the World Ocean Database/Atlas 2005 WOD05/WOA05, ( ds28
               <update startup="false" trigger="allow"/>
          </featureCollection>
        
-         <featureCollection name="ds285.3_6.9_sal"
+         <featureCollection name="Salinity Analyses for V6.9, 1945-2010"
                             featureType="GRIB"
                             harvest="true"
                             path="aggregations/g/ds285.3/8">
@@ -102,7 +102,7 @@ The analysis is based on the World Ocean Database/Atlas 2005 WOD05/WOA05, ( ds28
                 <serviceName>all</serviceName>
            </metadata>
        
-           <collection name="ds285.3_6.9_sal" 
+           <collection name="Salinity Analyses for V6.9, 1945-2010" 
                        spec="/glade/p/rda/data/ds285.3/sal6.9/sal\..*\.grb$"
                        dateFormatMark="#sal.#yyyy"
                        olderThan="0 min"/>
@@ -118,9 +118,9 @@ The analysis is based on the World Ocean Database/Atlas 2005 WOD05/WOA05, ( ds28
        
      </dataset>
  
-     <dataset name="ds285.3 (v6.12) Aggregations">
+     <dataset name="ds285.3 (v6.12) Dataset Aggregations">
        
-         <featureCollection name="ds285.3_6.12_temp"
+         <featureCollection name="Subsurface Temporature Analyses for V6.12, 1945-2011"
                             featureType="GRIB"
                             harvest="true"
                             path="aggregations/g/ds285.3/9">
@@ -129,7 +129,7 @@ The analysis is based on the World Ocean Database/Atlas 2005 WOD05/WOA05, ( ds28
                 <serviceName>all</serviceName>
            </metadata>
        
-           <collection name="ds285.3_6.12_temp" 
+           <collection name="Subsurface Temporature Analyses for V6.12, 1945-2011" 
                        spec="/glade/p/rda/data/ds285.3/temp6.12/temp\..*\.grb$"
                        dateFormatMark="#temp.#yyyy"
                        olderThan="0 min"/>
@@ -143,7 +143,7 @@ The analysis is based on the World Ocean Database/Atlas 2005 WOD05/WOA05, ( ds28
               <update startup="false" trigger="allow"/>
          </featureCollection>
        
-         <featureCollection name="ds285.3_6.12_sal"
+         <featureCollection name="Subsurface Salinity Analyses for V6.12, 1945-2011"
                             featureType="GRIB"
                             harvest="true"
                             path="aggregations/g/ds285.3/10">
@@ -152,7 +152,7 @@ The analysis is based on the World Ocean Database/Atlas 2005 WOD05/WOA05, ( ds28
                 <serviceName>all</serviceName>
            </metadata>
        
-           <collection name="ds285.3_6.12_sal" 
+           <collection name="Subsurface Salinity Analyses for V6.12, 1945-2011" 
                        spec="/glade/p/rda/data/ds285.3/sal6.12/sal\..*\.grb$"
                        dateFormatMark="#sal.#yyyy"
                        olderThan="0 min"/>
@@ -168,9 +168,9 @@ The analysis is based on the World Ocean Database/Atlas 2005 WOD05/WOA05, ( ds28
        
      </dataset>
  
-     <dataset name="ds285.3 (v6.13) Aggregations">
+     <dataset name="ds285.3 (v6.13) Dataset Aggregations">
        
-         <featureCollection name="ds285.3_6.13_temp"
+         <featureCollection name="Subsurface Temporature Analyses for V6.13, 1945-2012"
                             featureType="GRIB"
                             harvest="true"
                             path="aggregations/g/ds285.3/11">
@@ -179,7 +179,7 @@ The analysis is based on the World Ocean Database/Atlas 2005 WOD05/WOA05, ( ds28
                 <serviceName>all</serviceName>
            </metadata>
        
-           <collection name="ds285.3_6.13_temp" 
+           <collection name="Subsurface Temporature Analyses for V6.13, 1945-2012" 
                        spec="/glade/p/rda/data/ds285.3/temp6.13/temp\..*\.grb$"
                        dateFormatMark="#temp.#yyyy"
                        olderThan="0 min"/>

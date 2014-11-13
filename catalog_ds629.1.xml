@@ -21,7 +21,7 @@
 
     <!-- Top level dataset: Needed to set metadata for Files & Aggregations -->
 
-    <dataset name="ds629.1">
+    <dataset name="ds629.1 WCRP and WWRP-THORPEX YOTC (Year of Tropical Convection) Project, Single Parameter 6-Hourly Surface Analysis and Surface Forecast Time Series, Transformed to a Regular 1600x800 (N400) Gaussian Grid">
         <metadata inherited="true">
           <serviceName>all</serviceName>
           <dataFormat>GRIB-1</dataFormat>  
@@ -44,7 +44,7 @@ ds629.1 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
           <authority>edu.ucar.rda</authority>   
           <publisher>   
             <name vocabulary="DIF">NCAR/RDA</name>   
-            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />   
+            <contact url="http://rda.ucar.edu/" email="rdahelp@ucar.edu" />   
           </publisher>   
           <keywords>Numerical Weather Prediction</keywords>   
           <keywords>Tropical</keywords>   
@@ -70,11 +70,11 @@ ds629.1 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
 
      <!-- Aggregations -->
 
-     <dataset name="ds629.1 Aggregations">
+     <dataset name="ds629.1 Dataset Aggregations">
 
          <dataset name="Analysis">
        
-             <featureCollection name="ds629.1_an_sfc"
+             <featureCollection name="YOTC atmospheric model analysis for surface, single parameter 6-hourly time series"
                                 featureType="GRIB"
                                 harvest="true"
                                 path="aggregations/g/ds629.1/9">
@@ -83,7 +83,7 @@ ds629.1 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
                     <serviceName>all</serviceName>
                </metadata>
            
-               <collection name="ds629.1_an_sfc" 
+               <collection name="YOTC atmospheric model analysis for surface, single parameter 6-hourly time series" 
                            spec="/glade/p/rda/data/ds629.1/yt.oper.an.sfc/**/yt\.oper\.an\.sfc\..*"
                            olderThan="0 min"/>
            
@@ -100,7 +100,7 @@ ds629.1 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
        
          <dataset name="Forecast">
        
-             <featureCollection name="ds629.1_fc_sfc"
+             <featureCollection name="YOTC atmospheric model forecast for surface, single parameter 6-hourly time series"
                                 featureType="GRIB"
                                 harvest="true"
                                 path="aggregations/g/ds629.1/15">
@@ -109,7 +109,7 @@ ds629.1 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
                     <serviceName>all</serviceName>
                </metadata>
            
-               <collection name="ds629.1_fc_sfc" 
+               <collection name="YOTC atmospheric model forecast for surface, single parameter 6-hourly time series" 
                            spec="/glade/p/rda/data/ds629.1/yt.oper.fc.sfc/**/yt\.oper\.fc\.sfc\..*"
                            olderThan="0 min"/>
            

@@ -31,7 +31,7 @@
 
     <!-- Top level dataset: Needed to set metadata for Files & Aggregations -->
 
-    <dataset name="ds502.0">
+    <dataset name="ds502.0 NOAA CPC Morphing Technique (CMORPH) Global Precipitation Analyses">
         <metadata inherited="true">
           <serviceName>agg_services</serviceName>
           <dataFormat>NetCDF</dataFormat>  
@@ -50,7 +50,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
           <authority>edu.ucar.rda</authority>   
           <publisher>   
             <name vocabulary="DIF">NCAR/RDA</name>   
-            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />   
+            <contact url="http://rda.ucar.edu/" email="rdahelp@ucar.edu" />   
           </publisher>   
           <keywords>CMORPH</keywords>   
           <keywords>NCEP</keywords>   
@@ -76,7 +76,7 @@ CMORPH (CPC MORPHing technique) produces global precipitation analyses at very h
 
      <!-- Aggregations -->
 
-     <dataset name="ds502.0 Aggregations" 
+     <dataset name="ds502.0 Dataset Timeseries Aggregation" 
              ID="ds502.0-AGG" 
              urlPath="aggregations/g/ds502.0/2/best" 
              harvest="true">

@@ -32,7 +32,7 @@
 
     <!-- Top level dataset: Needed to set metadata for Files & Aggregations -->
 
-    <dataset name="ds601.0">
+    <dataset name="ds601.0 NCAR Nested Regional Climate Model (NRCM)">
         <metadata inherited="true">
           <serviceName>agg_services</serviceName>
           <dataFormat>NetCDF</dataFormat>
@@ -53,7 +53,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
           <authority>edu.ucar.rda</authority>   
           <publisher>   
             <name vocabulary="DIF">NCAR/RDA</name>   
-            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />   
+            <contact url="http://rda.ucar.edu/" email="rdahelp@ucar.edu" />   
           </publisher>   
           <keywords>Numerical Weather Prediction</keywords>
           <keywords>Climate</keywords>
@@ -78,11 +78,11 @@ Data are available as monthly time series files in NetCDF. The data currently pr
      </datasetScan>
 
      <!-- Aggregations -->
-     <dataset name="ds601.0 Aggregations">
+     <dataset name="ds601.0 Dataset Aggregations">
 
      <!-- NRCM 1995-2005 simulation aggregation -->
      <dataset name="NRCM 1995-2005 Simulation">
-       <dataset name="NRCM 1995-2005 Aggregation"
+       <dataset name="NRCM 1995-2005 Timeseries Aggregation"
          ID="ds601.0_NRCM_1995_2005-AGG"
          urlPath="aggregations/g/ds601.0/10/best"
          harvest="true">
@@ -457,7 +457,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
 
      <!-- NRCM 2020-2030 simulation aggregation -->
      <dataset name="NRCM 2020-2030 Simulation">
-       <dataset name="NRCM 2020-2030 Aggregation"
+       <dataset name="NRCM 2020-2030 Timeseries Aggregation"
          ID="ds601.0_NRCM_2020_2030-AGG"
          urlPath="aggregations/g/ds601.0/20/best"
          harvest="true">
@@ -850,7 +850,7 @@ Data are available as monthly time series files in NetCDF. The data currently pr
 
      <!-- NRCM 2045-2055 simulation aggregation -->
      <dataset name="NRCM 2045-2055 Simulation">
-       <dataset name="NRCM 2045-2055 Aggregation"
+       <dataset name="NRCM 2045-2055 Timeseries Aggregation"
          ID="ds601.0_NRCM_2045_2055-AGG"
          urlPath="aggregations/g/ds601.0/30/best"
          harvest="true">

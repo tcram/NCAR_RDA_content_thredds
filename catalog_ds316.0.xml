@@ -28,7 +28,7 @@
     <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
   </service>
 
- <dataset name="ds316.0">
+ <dataset name="ds316.0 NCAR Community Earth System Model, EaSM Project Dataset">
          <metadata inherited="true">
           <serviceName>agg_services</serviceName>
           <dataFormat>NetCDF</dataFormat>
@@ -48,7 +48,7 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
           <authority>edu.ucar.rda</authority>   
           <publisher>   
             <name vocabulary="DIF">NCAR/RDA</name>   
-            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />   
+            <contact url="http://rda.ucar.edu/" email="rdahelp@ucar.edu" />   
           </publisher>   
           <keywords>Numerical Weather Prediction</keywords>
           <keywords>Climate</keywords>
@@ -71,15 +71,15 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
 
      <!-- Aggregations -->
 
-     <dataset name="ds316.0 Aggregations">
+     <dataset name="ds316.0 Dataset Aggregations">
          <dataset name="20th Century Simulation">
        
-           <dataset name="20th Century Simulation Yearly Timeseries-Parameter Aggregations"
+           <dataset name="20th Century Simulation Timeseries Aggregation"
                     ID="ds316.0_20th_Century_Simulation_ts_AGG"
                     urlPath="aggregations/g/ds316.0/10/best"
                     harvest="true">
               <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                <attribute name="title" type="string" value="20th Century Simulation Timeseries-Parameter Aggregations"/>
+                <attribute name="title" type="string" value="20th Century Simulation Timeseries Aggregation"/>
                 <aggregation type="Union">       
                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/10/ts/PRECC"/>
                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/10/ts/PRECL"/>
@@ -105,7 +105,7 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
                        <scan location="/glade/p/rda/data/ds316.0/20thC/ts/PRECC" suffix=".nc" subdirs="true"/>
                     </aggregation>
                   </netcdf>
-             </dataset>
+              </dataset>
               <dataset name="internal/ds316.0 Aggregation (20thC/ts/PRECL)"
                 ID="internal/ds316.0/10/ts/PRECL"
                 urlPath="internal/ds316.0/10/ts/PRECL"
@@ -115,7 +115,7 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
                        <scan location="/glade/p/rda/data/ds316.0/20thC/ts/PRECL" suffix=".nc" subdirs="true"/>
                     </aggregation>
                   </netcdf>
-             </dataset>
+              </dataset>
               <dataset name="internal/ds316.0 Aggregation (20thC/ts/PS)"
                 ID="internal/ds316.0/10/ts/PS"
                 urlPath="internal/ds316.0/10/ts/PS"
@@ -125,7 +125,7 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
                        <scan location="/glade/p/rda/data/ds316.0/20thC/ts/PS" suffix=".nc" subdirs="true"/>
                     </aggregation>
                   </netcdf>
-             </dataset>
+              </dataset>
               <dataset name="internal/ds316.0 Aggregation (20thC/ts/PSL)"
                 ID="internal/ds316.0/10/ts/PSL"
                 urlPath="internal/ds316.0/10/ts/PSL"
@@ -135,7 +135,7 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
                        <scan location="/glade/p/rda/data/ds316.0/20thC/ts/PSL" suffix=".nc" subdirs="true"/>
                     </aggregation>
                   </netcdf>
-             </dataset>
+              </dataset>
               <dataset name="internal/ds316.0 Aggregation (20thC/ts/Q)"
                 ID="internal/ds316.0/10/ts/Q"
                 urlPath="internal/ds316.0/10/ts/Q"
@@ -145,7 +145,7 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
                        <scan location="/glade/p/rda/data/ds316.0/20thC/ts/Q" suffix=".nc" subdirs="true"/>
                     </aggregation>
                   </netcdf>
-             </dataset>
+              </dataset>
               <dataset name="internal/ds316.0 Aggregation (20thC/ts/T)"
                 ID="internal/ds316.0/10/ts/T"
                 urlPath="internal/ds316.0/10/ts/T"
@@ -155,7 +155,7 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
                        <scan location="/glade/p/rda/data/ds316.0/20thC/ts/T" suffix=".nc" subdirs="true"/>
                     </aggregation>
                   </netcdf>
-             </dataset>
+              </dataset>
               <dataset name="internal/ds316.0 Aggregation (20thC/ts/TS)"
                 ID="internal/ds316.0/10/ts/TS"
                 urlPath="internal/ds316.0/10/ts/TS"
@@ -165,7 +165,7 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
                        <scan location="/glade/p/rda/data/ds316.0/20thC/ts/TS" suffix=".nc" subdirs="true"/>
                     </aggregation>
                   </netcdf>
-             </dataset>
+              </dataset>
               <dataset name="internal/ds316.0 Aggregation (20thC/ts/U)"
                 ID="internal/ds316.0/10/ts/U"
                 urlPath="internal/ds316.0/10/ts/U"
@@ -175,7 +175,7 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
                        <scan location="/glade/p/rda/data/ds316.0/20thC/ts/U" suffix=".nc" subdirs="true"/>
                     </aggregation>
                   </netcdf>
-             </dataset>
+              </dataset>
               <dataset name="internal/ds316.0 Aggregation (20thC/ts/UBOT)"
                 ID="internal/ds316.0/10/ts/UBOT"
                 urlPath="internal/ds316.0/10/ts/UBOT"
@@ -188,7 +188,7 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
                       <attribute name="long_name" value="Surface zonal wind"/>
                     </variable>
                   </netcdf>
-             </dataset>
+              </dataset>
               <dataset name="internal/ds316.0 Aggregation (20thC/ts/V)"
                 ID="internal/ds316.0/10/ts/V"
                 urlPath="internal/ds316.0/10/ts/V"
@@ -198,7 +198,7 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
                        <scan location="/glade/p/rda/data/ds316.0/20thC/ts/V" suffix=".nc" subdirs="true"/>
                     </aggregation>
                   </netcdf>
-             </dataset>
+              </dataset>
               <dataset name="internal/ds316.0 Aggregation (20thC/ts/VBOT)"
                 ID="internal/ds316.0/10/ts/VBOT"
                 urlPath="internal/ds316.0/10/ts/VBOT"
@@ -211,7 +211,7 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
                       <attribute name="long_name" value="Surface meridional wind"/>
                     </variable>
                   </netcdf>
-             </dataset>
+              </dataset>
               <dataset name="internal/ds316.0 Aggregation (20thC/ts/Z3)"
                 ID="internal/ds316.0/10/ts/Z3"
                 urlPath="internal/ds316.0/10/ts/Z3"
@@ -226,50 +226,16 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
                        <scan location="/glade/p/rda/data/ds316.0/20thC/ts/h3" suffix=".nc" subdirs="true"/>
                     </aggregation>
                   <netcdf-->
-           </dataset>
-       
-           <dataset name="20th Century Simulation Monthly Synoptic Sort Aggregations"
-                    ID="ds316.0_20th_Century_Simulation_syn_AGG"
-                    urlPath="aggregations/g/ds316.0/11/best"
-                    harvest="true">
-               <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                 <attribute name="title" type="string" value="20th Century Simulation Monthly Synoptic Sort Aggregations"/>
-                 <aggregation type="Union">
-                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/100/synop/sl"/>
-                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/101/synop/hyb"/>
-                 </aggregation>
-             </netcdf>
-              </dataset>
-              <dataset name="internal/ds316.0 Aggregation (20thC/synop/sl)"
-                ID="internal/ds316.0/100/synop/sl"
-                urlPath="internal/ds316.0/100/synop/sl"
-                harvest="true">
-                   <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                     <aggregation dimName="time" type="joinExisting">
-                        <scan location="/glade/p/rda/data/ds316.0/20thC/synop/sl" suffix=".nc" subdirs="true"/>
-                     </aggregation>
-                   </netcdf>
-              </dataset>
-              <dataset name="internal/ds316.0 Aggregation (20thC/synop/hyb)"
-                ID="internal/ds316.0/101/synop/hyb"
-                urlPath="internal/ds316.0/101/synop/hyb"
-                harvest="true">
-                   <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                     <aggregation dimName="time" type="joinExisting">
-                        <scan location="/glade/p/rda/data/ds316.0/20thC/synop/hyb" suffix=".nc" subdirs="true"/>
-                     </aggregation>
-                   </netcdf>
-              </dataset>
-       
+               </dataset>
          </dataset>
        
          <dataset name="RCP 4.5">
-           <dataset name="rcp4.5 Yearly Timeseries-Parameter Aggregations"
+           <dataset name="rcp4.5 Timeseries Aggregation"
                     ID="ds316.0_rcp4.5_ts_AGG"
                     urlPath="aggregations/g/ds316.0/16/best"
                     harvest="true">
               <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                <attribute name="title" type="string" value="RCP 4.5 Yearly Timeseries-Parameter Aggregations"/>
+                <attribute name="title" type="string" value="RCP 4.5 Timeseries Aggregation"/>
                 <aggregation type="Union">
                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/16/ts/PRECC"/>
                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/16/ts/PRECL"/>
@@ -416,50 +382,16 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
                        <scan location="/glade/p/rda/data/ds316.0/rcp4_5/ts/h3" suffix=".nc" subdirs="true"/>
                     </aggregation>
                   <netcdf-->
-           </dataset>
-       
-           <dataset name="rcp4.5 Monthly Synoptic Sort Aggregations"
-                    ID="ds316.0_rcp4.5_syn_AGG"
-                    urlPath="aggregations/g/ds316.0/17/best"
-                    harvest="true">
-               <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                 <attribute name="title" type="string" value="RCP 4.5 Monthly Synoptic Sort Aggregations"/>
-                 <aggregation type="Union">
-                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/120/synop/sl"/>
-                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/121/synop/hyb"/>
-                 </aggregation>
-             </netcdf>
-              </dataset>
-              <dataset name="internal/ds316.0 Aggregation (rcp4_5/synop/sl)"
-                ID="internal/ds316.0/120/synop/sl"
-                urlPath="internal/ds316.0/120/synop/sl"
-                harvest="true">
-                   <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                     <aggregation dimName="time" type="joinExisting">
-                        <scan location="/glade/p/rda/data/ds316.0/rcp4_5/synop/sl" suffix=".nc" subdirs="true"/>
-                     </aggregation>
-                   </netcdf>
-              </dataset>
-              <dataset name="internal/ds316.0 Aggregation (rcp4_5/synop/hyb)"
-                ID="internal/ds316.0/121/synop/hyb"
-                urlPath="internal/ds316.0/121/synop/hyb"
-                harvest="true">
-                   <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                     <aggregation dimName="time" type="joinExisting">
-                        <scan location="/glade/p/rda/data/ds316.0/rcp4_5/synop/hyb" suffix=".nc" subdirs="true"/>
-                     </aggregation>
-                   </netcdf>
-              </dataset>
-       
+               </dataset>
          </dataset>
        
          <dataset name="RCP 6.0">
-           <dataset name="rcp6.0 Yearly Timeseries-Parameter Aggregations"
+           <dataset name="rcp6.0 Timeseries Aggregation"
                     ID="ds316.0_rcp6.0_ts_AGG"
                     urlPath="aggregations/g/ds316.0/19/best"
                     harvest="true">
               <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                <attribute name="title" type="string" value="RCP 6.0 Yearly Timeseries-Parameter Aggregations"/>
+                <attribute name="title" type="string" value="RCP 6.0 Timeseries Aggregation"/>
                 <aggregation type="Union">
                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/19/ts/PRECC"/>
                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/19/ts/PRECL"/>
@@ -606,50 +538,16 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
                        <scan location="/glade/p/rda/data/ds316.0/rcp6_0/ts/h3" suffix=".nc" subdirs="true"/>
                     </aggregation>
                   <netcdf-->
-           </dataset>
-       
-           <dataset name="rcp6.0 Monthly Synoptic Sort Aggregations"
-                    ID="ds316.0_rcp6.0_syn_AGG"
-                    urlPath="aggregations/g/ds316.0/20/best"
-                    harvest="true">
-               <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                 <attribute name="title" type="string" value="RCP 6.0 Monthly Synoptic Sort Aggregations"/>
-                 <aggregation type="Union">
-                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/130/synop/sl"/>
-                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/131/synop/hyb"/>
-                 </aggregation>
-             </netcdf>
-              </dataset>
-              <dataset name="internal/ds316.0 Aggregation (rcp6_0/synop/sl)"
-                ID="internal/ds316.0/130/synop/sl"
-                urlPath="internal/ds316.0/130/synop/sl"
-                harvest="true">
-                   <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                     <aggregation dimName="time" type="joinExisting">
-                        <scan location="/glade/p/rda/data/ds316.0/rcp6_0/synop/sl" suffix=".nc" subdirs="true"/>
-                     </aggregation>
-                   </netcdf>
-              </dataset>
-              <dataset name="internal/ds316.0 Aggregation (rcp6_0/synop/hyb)"
-                ID="internal/ds316.0/131/synop/hyb"
-                urlPath="internal/ds316.0/131/synop/hyb"
-                harvest="true">
-                   <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                     <aggregation dimName="time" type="joinExisting">
-                        <scan location="/glade/p/rda/data/ds316.0/rcp6_0/synop/hyb" suffix=".nc" subdirs="true"/>
-                     </aggregation>
-                   </netcdf>
-              </dataset>
-       
+               </dataset>
          </dataset>
        
          <dataset name="RCP 8.5">
-           <dataset name="rcp8.5 Yearly Timeseries-Parameter Aggregations"
+           <dataset name="rcp8.5 Timeseries Aggregation"
                     ID="ds316.0_rcp8.5_ts_AGG"
                     urlPath="aggregations/g/ds316.0/22/best"
                     harvest="true">
               <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                <attribute name="title" type="string" value="RCP 8.5 Yearly Timeseries-Parameter Aggregations"/>
+                <attribute name="title" type="string" value="RCP 8.5 Timeseries Aggregation"/>
                 <aggregation type="Union">
                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/22/ts/PRECC"/>
                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/22/ts/PRECL"/>
@@ -796,45 +694,10 @@ This dataset includes climate model output data from NCAR's Community Earth Syst
                        <scan location="/glade/p/rda/data/ds316.0/rcp8_5/ts/h3" suffix=".nc" subdirs="true"/>
                     </aggregation>
                   <netcdf-->
-           </dataset>
+               </dataset>
+             </dataset>
+         </dataset>
        
-           <dataset name="rcp8.5 Monthly Synoptic Sort Aggregations"
-                    ID="ds316.0_rcp8.5_syn_AGG"
-                    urlPath="aggregations/g/ds316.0/23/best"
-                    harvest="true">
-               <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                 <attribute name="title" type="string" value="RCP 8.5 Monthly Synoptic Sort Aggregations"/>
-                 <aggregation type="Union">
-                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/140/synop/sl"/>
-                    <netcdf location="dods://localhost:8080/thredds/dodsC/internal/ds316.0/141/synop/hyb"/>
-                 </aggregation>
-             </netcdf>
-              </dataset>
-              <dataset name="internal/ds316.0 Aggregation (rcp8_5/synop/sl)"
-                ID="internal/ds316.0/140/synop/sl"
-                urlPath="internal/ds316.0/140/synop/sl"
-                harvest="true">
-                   <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                     <aggregation dimName="time" type="joinExisting">
-                        <scan location="/glade/p/rda/data/ds316.0/rcp8_5/synop/sl" suffix=".nc" subdirs="true"/>
-                     </aggregation>
-                   </netcdf>
-              </dataset>
-              <dataset name="internal/ds316.0 Aggregation (rcp8_5/synop/hyb)"
-                ID="internal/ds316.0/141/synop/hyb"
-                urlPath="internal/ds316.0/141/synop/hyb"
-                harvest="true">
-                   <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-                     <aggregation dimName="time" type="joinExisting">
-                        <scan location="/glade/p/rda/data/ds316.0/rcp8_5/synop/hyb" suffix=".nc" subdirs="true"/>
-                     </aggregation>
-                   </netcdf>
-              </dataset>
-       
-           </dataset>
-       
-        </dataset>
-     
     </dataset>
 
 </catalog>

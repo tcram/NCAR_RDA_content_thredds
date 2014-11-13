@@ -18,12 +18,23 @@
     <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
   </service>
 
+<!-- Service group to be used for aggregations (includes all services except HTTPServer) -->
+  <service name="agg_services" serviceType="Compound" base="">
+    <service name="opendap" serviceType="OPENDAP" base="/thredds/dodsC/"/>
+    <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/"/>
+    <service name="cdmremote" serviceType="CdmRemote" base="/thredds/cdmremote/"/>
+    <service name="wcs" serviceType="WCS" base="/thredds/wcs/"/>
+    <service name="wms" serviceType="WMS" base="/thredds/wms/"/>
+    <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+  </service>
 
     <!-- Top level dataset: Needed to set metadata for Files & Aggregations -->
 
-    <dataset name="ds631.0">
+    <dataset name="ds631.0 Arctic System Reanalysis (ASR) Project">
         <metadata inherited="true">
-            <serviceName>all</serviceName>
+            <serviceName>agg_services</serviceName>
           <dataFormat>NetCDF</dataFormat>  
           <dataType>GRID</dataType>   
           <documentation type="Rights">Freely Available</documentation>   
@@ -40,7 +51,7 @@ The Arctic System Reanalysis (ASR) is produced using a high-resolution version o
           <authority>edu.ucar.rda</authority>   
           <publisher>   
             <name vocabulary="DIF">NCAR/RDA</name>   
-            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />   
+            <contact url="http://rda.ucar.edu/" email="rdahelp@ucar.edu" />   
           </publisher>   
           <keywords>Numerical Weather Prediction</keywords>   
           <keywords>NCEP</keywords>   
@@ -65,15 +76,12 @@ The Arctic System Reanalysis (ASR) is produced using a high-resolution version o
      </datasetScan>
 
      <!-- Aggregations -->
-     <dataset name="ds631.0 Aggregations">
+     <dataset name="ds631.0 Dataset Aggregations">
 
          <dataset name="ASR 30 km 3d pressure level analysis"
                   ID="ds631.0_anl_3d-AGG"
                   urlPath="aggregations/g/ds631.0/6/best"
                   harvest="true">
-             <metadata inherited="true">
-                 <serviceName>all</serviceName>
-             </metadata>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
               <aggregation dimName="time" type="joinExisting">
                 <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.3D/" suffix=".nc" subdirs="false"/>
@@ -93,9 +101,6 @@ The Arctic System Reanalysis (ASR) is produced using a high-resolution version o
                   ID="ds631.0_anl_2d-AGG"
                   urlPath="aggregations/g/ds631.0/9/best"
                   harvest="true">
-             <metadata inherited="true">
-                 <serviceName>all</serviceName>
-             </metadata>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
               <aggregation dimName="time" type="joinExisting">
                 <scan location="/glade/p/rda/data/ds631.0/asr30km.anl.2d/" suffix=".nc" subdirs="false"/>
@@ -116,9 +121,6 @@ The Arctic System Reanalysis (ASR) is produced using a high-resolution version o
                   ID="ds631.0_fcst_3d-AGG"
                   urlPath="aggregations/g/ds631.0/14/best"
                   harvest="true">
-             <metadata inherited="true">
-                 <serviceName>all</serviceName>
-             </metadata>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
               <aggregation dimName="time" type="joinExisting">
                 <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.3D/" suffix=".nc" subdirs="false"/>
@@ -138,9 +140,6 @@ The Arctic System Reanalysis (ASR) is produced using a high-resolution version o
                   ID="ds631.0_fcst_2d-AGG"
                   urlPath="aggregations/g/ds631.0/15/best"
                   harvest="true">
-             <metadata inherited="true">
-                 <serviceName>all</serviceName>
-             </metadata>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
               <aggregation dimName="time" type="joinExisting">
                 <scan location="/glade/p/rda/data/ds631.0/asr30km.fcst3.2d/" suffix=".nc" subdirs="false"/>
@@ -160,9 +159,6 @@ The Arctic System Reanalysis (ASR) is produced using a high-resolution version o
                   ID="ds631.0_anl_monthly-AGG"
                   urlPath="aggregations/g/ds631.0/21/best"
                   harvest="true">
-             <metadata inherited="true">
-                 <serviceName>all</serviceName>
-             </metadata>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
              <aggregation type="Union">
              <netcdf>
@@ -199,9 +195,6 @@ The Arctic System Reanalysis (ASR) is produced using a high-resolution version o
                   ID="ds631.0_fcst_monthly-AGG"
                   urlPath="aggregations/g/ds631.0/22/best"
                   harvest="true">
-             <metadata inherited="true">
-                 <serviceName>all</serviceName>
-             </metadata>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
              <aggregation type="Union">
              <netcdf>

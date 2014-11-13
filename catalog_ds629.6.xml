@@ -21,7 +21,7 @@
 
     <!-- Top level dataset: Needed to set metadata for Files & Aggregations -->
 
-    <dataset name="ds629.6">
+    <dataset name="ds629.6 WCRP and WWRP-THORPEX YOTC (Year of Tropical Convection) Project, Single Parameter 3-Hourly Pressure Level Forecast Time Series, Transformed to a Regular 1600x800 (N400) Gaussian Grid, Dynamical Parameters Only">
         <metadata inherited="true">
             <serviceName>all</serviceName>
           <dataFormat>GRIB-1</dataFormat>
@@ -45,7 +45,7 @@ ds629.6 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
           <authority>edu.ucar.rda</authority>
           <publisher>
             <name vocabulary="DIF">NCAR/RDA</name>
-            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />
+            <contact url="http://rda.ucar.edu/" email="rdahelp@ucar.edu" />
           </publisher>
           <keywords>Numerical Weather Prediction</keywords>
           <keywords>Tropical</keywords>
@@ -58,7 +58,7 @@ ds629.6 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
 
       <!--  Files -->
 
-     <datasetScan name="ds629.6i Files" 
+     <datasetScan name="ds629.6 Files" 
                   path="files/g/ds629.6" 
                   location="/glade/p/rda/data/ds629.6">
          <metadata inherited="true">
@@ -73,9 +73,9 @@ ds629.6 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
      <!-- Aggregations -->
 
    
-     <dataset name="ds629.6 Aggregations">
+     <dataset name="ds629.6 Dataset Aggregations">
    
-         <featureCollection name="629.6 - Single Parameter 3-Hourly Pressure Level Forecast Time Series"
+         <featureCollection name="YOTC atmospheric model forecast interpolated to pressure levels, single parameter 3-hourly time series, dynamical variables only"
                             featureType="GRIB"
                             harvest="true"
                             path="aggregations/g/ds629.6/0">
@@ -84,7 +84,7 @@ ds629.6 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
                 <serviceName>all</serviceName>
            </metadata>
        
-           <collection name="ds629.6_fc_pl" 
+           <collection name="YOTC atmospheric model forecast interpolated to pressure levels, single parameter 3-hourly time series, dynamical variables only" 
                        spec="/glade/p/rda/data/ds629.6/yt.oper.fc.pl/**/yt\.oper\.fc\.pl\..*"
                        olderThan="0 min"/>
        

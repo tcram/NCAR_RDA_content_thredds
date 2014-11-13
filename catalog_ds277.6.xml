@@ -21,7 +21,7 @@
 
    <!-- Top level dataset: Needed to set metadata for Files & Aggregations -->
 
-   <dataset name="ds277.6">
+   <dataset name="ds277.6 NCEP Global Ocean Data Assimilation System (GODAS)">
         <metadata inherited="true">
             <serviceName>all</serviceName>
             <dataFormat>GRIB-1</dataFormat>
@@ -40,7 +40,7 @@ The National Centers for Environmental Prediction (NCEP) uses a Global Ocean Dat
           <authority>edu.ucar.rda</authority> 
           <publisher> 
             <name vocabulary="DIF">NCAR/RDA</name> 
-            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" /> 
+            <contact url="http://rda.ucar.edu/" email="rdahelp@ucar.edu" /> 
           </publisher> 
           <keywords>NCEP Global Ocean Data Assimilation System</keywords> 
           <keywords>NCEP</keywords> 
@@ -66,7 +66,7 @@ The National Centers for Environmental Prediction (NCEP) uses a Global Ocean Dat
   
      <!-- Aggregations -->
 
-     <featureCollection name="ds277.6 Aggregations"
+     <featureCollection name="ds277.6 Dataset Aggregations"
                         featureType="GRIB"
                         harvest="true"
                         path="aggregations/g/ds277.6/1">
@@ -75,7 +75,7 @@ The National Centers for Environmental Prediction (NCEP) uses a Global Ocean Dat
             <serviceName>all</serviceName>
          </metadata>
    
-         <collection name="ds277.6" 
+         <collection name="ds277.6 Dataset Aggregations" 
                      spec="/glade/p/rda/data/ds277.6/monthly/godas\.M\..*\.grb$"
                      dateFormatMark="#godas.M.#yyyyMM"
                      olderThan="0 min"

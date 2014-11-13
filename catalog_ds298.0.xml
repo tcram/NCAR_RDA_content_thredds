@@ -18,7 +18,7 @@
     <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
   </service>
 
- <dataset name="ds298.0">
+ <dataset name="ds298.0 Standardized Precipitation Index (SPI) for Global Land Surface (1949-2012)">
          <metadata inherited="true">
           <dataFormat>NetCDF</dataFormat>
           <dataType>GRID</dataType>
@@ -40,7 +40,7 @@ The Standardized Precipitation Index (SPI) is commonly used to monitor drought a
           <authority>edu.ucar.rda</authority>   
           <publisher>   
             <name vocabulary="DIF">NCAR/RDA</name>   
-            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />   
+            <contact url="http://rda.ucar.edu/" email="rdahelp@ucar.edu" />   
           </publisher>   
           <keywords>Climate Indicators</keywords>
           <keywords>Drought/Precipitation Indices</keywords>

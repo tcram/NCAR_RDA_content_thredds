@@ -21,7 +21,7 @@
 
     <!-- Top level dataset: Needed to set metadata for Files & Aggregations -->
 
-    <dataset name="ds627.1">
+    <dataset name="ds627.1 ERA-Interim Project, Monthly Means">
         <metadata inherited="true">
           <serviceName>all</serviceName>
           <dataFormat>GRIB-1</dataFormat>  
@@ -51,7 +51,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
           <authority>edu.ucar.rda</authority>   
           <publisher>   
             <name vocabulary="DIF">NCAR/RDA</name>   
-            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />   
+            <contact url="http://rda.ucar.edu/" email="rdahelp@ucar.edu" />   
           </publisher>   
           <keywords>Numerical Weather Prediction</keywords>   
           <keywords>Model data</keywords>   
@@ -76,11 +76,11 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
 
      <!-- Aggregations -->
 
-     <dataset name="ds627.1 Aggregations">
+     <dataset name="ds627.1 Dataset Aggregations">
 
          <dataset name="Analysis">
        
-             <featureCollection name="ds627.1_an_ml"
+             <featureCollection name="Monthly Mean ERA Interim atmospheric model analysis on model levels"
                                 featureType="GRIB"
                                 harvest="true"
                                 path="aggregations/e/ds627.1/5">
@@ -89,7 +89,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
                     <serviceName>all</serviceName>
                </metadata>
            
-               <collection name="ds627.1_an_ml" 
+               <collection name="Monthly Mean ERA Interim atmospheric model analysis on model levels" 
                            spec="/glade/p/rda/data/ds627.1/ei.moda.an.ml/ei\.moda\.an\.ml\..*"
                            olderThan="0 min"/>
            
@@ -102,7 +102,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
                   <update startup="false" trigger="allow"/>
              </featureCollection>
           
-             <featureCollection name="ds627.1_an_pl"
+             <featureCollection name="Monthly Mean ERA Interim atmospheric model analysis interpolated to pressure levels"
                                 featureType="GRIB"
                                 harvest="true"
                                 path="aggregations/e/ds627.1/6">
@@ -111,7 +111,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
                     <serviceName>all</serviceName>
                </metadata>
 
-               <collection name="ds627.1_an_pl" 
+               <collection name="Monthly Mean ERA Interim atmospheric model analysis interpolated to pressure levels" 
                            spec="/glade/p/rda/data/ds627.1/ei.moda.an.pl/ei\.moda\.an\.pl\..*"
                            olderThan="0 min"/>
 
@@ -124,7 +124,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
                   <update startup="false" trigger="allow"/>
              </featureCollection>
           
-             <featureCollection name="ds627.1_an_pt"
+             <featureCollection name="Monthly Mean ERA Interim atmospheric model analysis interpolated to isentropic levels"
                                 featureType="GRIB"
                                 harvest="true"
                                 path="aggregations/e/ds627.1/7">
@@ -133,7 +133,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
                     <serviceName>all</serviceName>
                </metadata>
 
-               <collection name="ds627.1_an_pt"
+               <collection name="Monthly Mean ERA Interim atmospheric model analysis interpolated to isentropic levels"
                            spec="/glade/p/rda/data/ds627.1/ei.moda.an.pt/ei\.moda\.an\.pt\..*"
                            olderThan="0 min"/>
 
@@ -146,7 +146,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
                   <update startup="false" trigger="allow"/>
              </featureCollection>  
    
-             <featureCollection name="ds627.1_an_pv"
+             <featureCollection name="Monthly Mean ERA Interim atmospheric model analysis interpolated to 2 pvu level"
                                 featureType="GRIB"
                                 harvest="true"
                                 path="aggregations/e/ds627.1/8">
@@ -155,7 +155,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
                     <serviceName>all</serviceName>
                </metadata>
 
-               <collection name="ds627.1_an_pv"
+               <collection name="Monthly Mean ERA Interim atmospheric model analysis interpolated to 2 pvu level"
                            spec="/glade/p/rda/data/ds627.1/ei.moda.an.pv/ei\.moda\.an\.pv\..*"
                            olderThan="0 min"/>
 
@@ -168,7 +168,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
                   <update startup="false" trigger="allow"/>
              </featureCollection>
 
-             <featureCollection name="ds627.1_an_sfc"
+             <featureCollection name="Monthly Mean ERA Interim atmospheric model analysis for surface"
                                 featureType="GRIB"
                                 harvest="true"
                                 path="aggregations/e/ds627.1/9">
@@ -177,7 +177,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
                     <serviceName>all</serviceName>
                </metadata>      
 
-               <collection name="ds627.1_an_sfc"
+               <collection name="Monthly Mean ERA Interim atmospheric model analysis for surface"
                            spec="/glade/p/rda/data/ds627.1/ei.moda.an.sfc/ei\.moda\.an\.sfc\..*"
                            olderThan="0 min"/>
 
@@ -194,7 +194,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
          <!--
          <dataset name="Forecast">
 
-             <featureCollection name="ds627.1_fc_sfc"
+             <featureCollection name="Monthly Mean ERA Interim atmospheric model forecast for surface (at 12 hours)"
                                 featureType="GRIB"
                                 harvest="true"
                                 path="aggregations/e/ds627.1/15">
@@ -203,7 +203,7 @@ NCAR's Data Support Section (DSS) is performing and supplying a grid transformed
                     <serviceName>all</serviceName>
                </metadata>
            
-               <collection name="ds627.1_fc_sfc" 
+               <collection name="Monthly Mean ERA Interim atmospheric model forecast for surface (at 12 hours)" 
                            spec="/glade/p/rda/data/ds627.1/ei.mdfa.fc12hr.sfc/ei\.mdfa\.fc12hr\.sfc\..*"
                            olderThan="0 min"/>
            

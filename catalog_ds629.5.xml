@@ -21,7 +21,7 @@
 
     <!-- Top level dataset: Needed to set metadata for Files & Aggregations -->
 
-    <dataset name="ds629.5">
+    <dataset name="ds629.5 WCRP and WWRP-THORPEX YOTC (Year of Tropical Convection) Project, Single Parameter 3-Hourly Surface Forecast Time Series, Transformed to a Regular 1600x800 (N400) Gaussian Grid">
         <metadata inherited="true">
             <serviceName>all</serviceName>
           <dataFormat>GRIB-1</dataFormat>
@@ -44,7 +44,7 @@ ds629.5 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
           <authority>edu.ucar.rda</authority>
           <publisher>
             <name vocabulary="DIF">NCAR/RDA</name>
-            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />
+            <contact url="http://rda.ucar.edu/" email="rdahelp@ucar.edu" />
           </publisher>
           <keywords>Numerical Weather Prediction</keywords>
           <keywords>Tropical</keywords>
@@ -72,9 +72,9 @@ ds629.5 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
      <!-- Aggregations -->
 
    
-     <dataset name="ds629.5 Aggregations">
+     <dataset name="ds629.5 Dataset Aggregations">
    
-         <featureCollection name="629.5 - Single Parameter 3-Hourly Surface Forecast Time Series"
+         <featureCollection name="YOTC atmospheric model forecast for surface, single parameter 3-hourly time series"
                             featureType="GRIB"
                             harvest="true"
                             path="aggregations/g/ds629.5/0">
@@ -83,7 +83,7 @@ ds629.5 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
                 <serviceName>all</serviceName>
            </metadata>
        
-           <collection name="ds629.5_fc_sfc" 
+           <collection name="YOTC atmospheric model forecast for surface, single parameter 3-hourly time series" 
                        spec="/glade/p/rda/data/ds629.5/yt.oper.fc.sfc/**/yt\.oper\.fc\.sfc\..*"
                        olderThan="0 min"/>
        

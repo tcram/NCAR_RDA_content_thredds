@@ -21,7 +21,7 @@
 
     <!-- Top level dataset: Needed to set metadata for Files & Aggregations -->
 
-    <dataset name="ds094.1">
+    <dataset name="ds094.1 NCEP Climate Forecast System Version 2 (CFSv2) Selected Hourly Time-Series Products">
         <metadata inherited="true">
             <serviceName>all</serviceName>
           <dataFormat>GRIB-2</dataFormat>
@@ -42,7 +42,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
           <authority>edu.ucar.rda</authority>
           <publisher>
             <name vocabulary="DIF">NCAR/RDA</name>
-            <contact url="http://rda.ucar.edu/" email="dssweb@ucar.edu" />
+            <contact url="http://rda.ucar.edu/" email="rdahelp@ucar.edu" />
           </publisher>
           <keywords>Numerical Weather Prediction</keywords>
           <keywords>NCEP</keywords>
@@ -69,7 +69,7 @@ The National Centers for Environmental Prediction (NCEP) Climate Forecast System
 
      <!-- Aggregations -->
 
-     <dataset name="ds094.1 Aggregations">
+     <dataset name="ds094.1 Dataset Aggregations">
 
          <featureCollection name="ds094.1_4lftx Aggregations"
                             featureType="GRIB"
