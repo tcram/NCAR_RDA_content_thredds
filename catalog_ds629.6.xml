@@ -59,7 +59,7 @@ ds629.6 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
       <!--  Files -->
 
      <datasetScan name="ds629.6 Files" 
-                  path="files/g/ds629.6" 
+                  path="files/e/ds629.6" 
                   location="/glade/p/rda/data/ds629.6">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -78,7 +78,7 @@ ds629.6 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
          <featureCollection name="YOTC atmospheric model forecast interpolated to pressure levels, single parameter 3-hourly time series, dynamical variables only"
                             featureType="GRIB"
                             harvest="true"
-                            path="aggregations/g/ds629.6/0">
+                            path="aggregations/e/ds629.6/0">
        
            <metadata inherited="true">
                 <serviceName>all</serviceName>

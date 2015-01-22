@@ -57,7 +57,7 @@ ds629.1 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
       <!--  Files -->
 
      <datasetScan name="ds629.1 Files" 
-                  path="files/g/ds629.1" 
+                  path="files/e/ds629.1" 
                   location="/glade/p/rda/data/ds629.1">
          <metadata inherited="true">
              <serviceName>all</serviceName>
@@ -77,7 +77,7 @@ ds629.1 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
              <featureCollection name="YOTC atmospheric model analysis for surface, single parameter 6-hourly time series"
                                 featureType="GRIB"
                                 harvest="true"
-                                path="aggregations/g/ds629.1/9">
+                                path="aggregations/e/ds629.1/9">
            
                <metadata inherited="true">
                     <serviceName>all</serviceName>
@@ -103,7 +103,7 @@ ds629.1 represents a transformed version of the raw ECMWF YOTC archive (ds629.0)
              <featureCollection name="YOTC atmospheric model forecast for surface, single parameter 6-hourly time series"
                                 featureType="GRIB"
                                 harvest="true"
-                                path="aggregations/g/ds629.1/15">
+                                path="aggregations/e/ds629.1/15">
            
                <metadata inherited="true">
                     <serviceName>all</serviceName>
