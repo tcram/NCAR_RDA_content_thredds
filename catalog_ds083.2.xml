@@ -24,7 +24,6 @@
     <dataset name="ds083.2 NCEP FNL Operational Model Global Tropospheric Analyses">
         <metadata inherited="true">
             <serviceName>all</serviceName>
-          <dataFormat>GRIB-1</dataFormat>
           <dataType>GRID</dataType>
           <documentation type="Rights">Freely Available</documentation>
           <documentation xlink:href="http://rda.ucar.edu/datasets/ds083.2/"
@@ -61,6 +60,7 @@ The archive time series is continuously extended to a near-current date. It is n
                   path="files/g/ds083.2" 
                   location="/glade/p/rda/data/ds083.2">
          <metadata inherited="true">
+          <dataFormat>GRIB-1</dataFormat>
           <serviceName>all</serviceName>
         </metadata>
         <filter>
@@ -71,16 +71,17 @@ The archive time series is continuously extended to a near-current date. It is n
      </datasetScan>
 
      <!--  Aggregations  -->
-
-     <featureCollection name="ds083.2 Dataset Aggregation"
+     <dataset name="ds083.2 Dataset Aggregations">
+     <featureCollection name="ds083.2 Dataset Aggregation Oct 1999 to Dec 2007"
                      featureType="GRIB"
                      harvest="true"
                      path="aggregations/g/ds083.2/1">
          <metadata inherited="true">
+          <dataFormat>GRIB-1</dataFormat>
           <serviceName>all</serviceName>
         </metadata>
 
-         <collection name="ds083.2 Dataset Aggregation"
+         <collection name="ds083.2 Dataset Aggregation Oct 1999 to Dec 2007"
                 ID="ds083.2-AGG"
                 spec="/glade/p/rda/data/ds083.2/grib1/**/fnl_.*_00.grib1$"
                 olderThan="0 min"/>
@@ -93,6 +94,30 @@ The archive time series is continuously extended to a near-current date. It is n
          </gribConfig>
          <update startup="false" trigger="allow"/>
      </featureCollection>
+
+     <featureCollection name="ds083.2 Dataset Aggregation Dec 2007 to Current"
+                     featureType="GRIB"
+                     harvest="true"
+                     path="aggregations/g/ds083.2/2">
+         <metadata inherited="true">
+          <dataFormat>GRIB-2</dataFormat>
+          <serviceName>all</serviceName>
+        </metadata>
+
+         <collection name="ds083.2 Dataset Aggregation Dec 2007 to Current"
+                ID="ds083.2-AGG2"
+                spec="/glade/p/rda/data/ds083.2/grib2/**/fnl_.*_00.grib2$"
+                olderThan="0 min"/>
+
+         <gribConfig datasetTypes="Best">
+             <bestNamer name="Timeseries Aggregation"/>
+             <pdsHash>
+                 <useTableVersion>false</useTableVersion>
+             </pdsHash>
+         </gribConfig>
+         <update startup="false" trigger="allow"/>
+     </featureCollection>
+     </dataset>
 
   </dataset>
 
