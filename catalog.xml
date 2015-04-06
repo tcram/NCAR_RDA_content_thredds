@@ -20,8 +20,6 @@
 
 
     <catalogRef xlink:href="catalog_ds083.2.xml" xlink:title="ds083.2 NCEP FNL Operational Model Global Tropospheric Analyses" name="NCEP FNL Operational Model Global Tropospheric Analyses" />
-    <catalogRef xlink:href="catalog_ds093.1.xml" xlink:title="ds093.1 NCEP Climate Forecast System Reanalysis (CFSR) Selected Hourly Time-Series Products, January 1979 to December 2010" name="NCEP Climate Forecast System Reanalysis (CFSR) Selected Hourly Time-Series Products, January 1979 to December 2010" />
-    <catalogRef xlink:href="catalog_ds094.1.xml" xlink:title="ds094.1 NCEP Climate Forecast System Version 2 (CFSv2) Selected Hourly Time-Series Products" name="NCEP Climate Forecast System Version 2 (CFSv2) Selected Hourly Time-Series Products" />
     <catalogRef xlink:href="catalog_ds131.1.xml" xlink:title="ds131.1 NOAA-CIRES Twentieth Century Global Reanalysis Version II" name="NOAA-CIRES Twentieth Century Global Reanalysis Version II" />
     <catalogRef xlink:href="catalog_ds277.6.xml" xlink:title="ds277.6 NCEP Global Ocean Data Assimilation System (GODAS)" name="NCEP Global Ocean Data Assimilation System (GODAS)" />
     <catalogRef xlink:href="catalog_ds285.3.xml" xlink:title="ds285.3 Subsurface Temperature And Salinity Analyses by Ishii et al." name="Subsurface Temperature And Salinity Analyses by Ishii et al." />
