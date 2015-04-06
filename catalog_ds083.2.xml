@@ -59,15 +59,14 @@ The archive time series is continuously extended to a near-current date. It is n
                   path="files/g/ds083.2" 
                   location="/glade/p/rda/data/ds083.2">
          <metadata inherited="true">
-          <dataFormat>GRIB-1</dataFormat>
           <serviceName>all</serviceName>
         </metadata>
         <filter>
             <exclude wildcard="*.html"/>
-            <exclude wildcard="grib2" atomic="false" collection="true"/>
         </filter>
         <addDatasetSize/>
      </datasetScan>
+
 
      <!--  Aggregations  -->
      <dataset name="ds083.2 Dataset Aggregations">
